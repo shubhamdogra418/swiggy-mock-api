@@ -169,3 +169,27 @@
     },
     {
       "id": "c6",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Coca-Cola",
+          "price": 6000,
+          "veg": true,
+          "description": "500ml chilled Coke",
+          "image": "https://picsum.photos/200/200?drink1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Sprite",
+          "price": 6000,
+          "veg": true,
+          "description": "500ml chilled Sprite",
+          "image": "https://picsum.photos/200/200?drink2",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}
