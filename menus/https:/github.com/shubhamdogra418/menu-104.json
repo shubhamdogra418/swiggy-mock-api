@@ -125,4 +125,95 @@
         },
         {
           "id": "i402",
-          "name": "Veg N
+          "name": "Veg Nuggets",
+          "price": 11900,
+          "veg": true,
+          "description": "Crispy veg nuggets",
+          "image": "https://picsum.photos/200/200?nuggets1",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Chicken Nuggets",
+          "price": 14900,
+          "veg": false,
+          "description": "Crispy chicken nuggets",
+          "image": "https://picsum.photos/200/200?nuggets2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Desserts",
+      "items": [
+        {
+          "id": "i501",
+          "name": "McFlurry Oreo",
+          "price": 10900,
+          "veg": true,
+          "description": "Soft serve with Oreo bits",
+          "image": "https://picsum.photos/200/200?dessert1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Chocolate Sundae",
+          "price": 8900,
+          "veg": true,
+          "description": "Vanilla ice cream with chocolate sauce",
+          "image": "https://picsum.photos/200/200?dessert2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Coca-Cola",
+          "price": 6000,
+          "veg": true,
+          "description": "500ml chilled Coke",
+          "image": "https://picsum.photos/200/200?drink1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Fanta",
+          "price": 6000,
+          "veg": true,
+          "description": "500ml chilled Fanta",
+          "image": "https://picsum.photos/200/200?drink2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "title": "Happy Meals",
+      "items": [
+        {
+          "id": "i701",
+          "name": "Chicken Happy Meal",
+          "price": 24900,
+          "veg": false,
+          "description": "Kids meal with chicken burger & toy",
+          "image": "https://picsum.photos/200/200?happymeal1",
+          "inStock": true
+        },
+        {
+          "id": "i702",
+          "name": "Veg Happy Meal",
+          "price": 21900,
+          "veg": true,
+          "description": "Kids meal with veg burger & toy",
+          "image": "https://picsum.photos/200/200?happymeal2",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}
