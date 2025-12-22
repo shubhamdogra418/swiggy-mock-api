@@ -364,6 +364,206 @@
 
     { "id": "146", "name": "Chai Point", "cuisines": ["Beverages"], "rating": 4.0, "deliveryTime": "15-20 mins", "costForTwo": 150, "image": "https://picsum.photos/300/200?random=46", "menuApi": "https://run.mocky.io/v3/menu-146" },
     { "id": "147", "name": "Cafe Coffee Day", "cuisines": ["Cafe"], "rating": 4.1, "deliveryTime": "20-25 mins", "costForTwo": 300, "image": "https://picsum.photos/300/200?random=47", "menuApi": "https://run.mocky.io/v3/menu-147" },
-    { "id": "148", "name": "Lassi Shop", "cuisines": ["Beverages"], "rating": 4.2, "deliveryTime": "15-20 mins", "costForTwo": 180, "image": "https://picsum.photos/300/200?random=48", "menuApi": "https://run.mocky.io/v3/menu-148" }
+    { "id": "148", "name": "Lassi Shop", "cuisines": ["Beverages"], "rating": 4.2, "deliveryTime": "15-20 mins", "costForTwo": 180, "image": "https://picsum.photos/300/200?random=48", "menuApi": "https://run.mocky.io/v3/menu-148" },
+    {
+      "id": "149",
+      "name": "Idli Dosa Corner",
+      "cuisines": ["South Indian"],
+      "rating": 4.5,
+      "deliveryTime": "25-30 mins",
+      "costForTwo": 180,
+      "image": "https://picsum.photos/300/200?random=49",
+      "menuApi": "https://run.mocky.io/v3/menu-149"
+    },
+    {
+      "id": "150",
+      "name": "Annapurna Bhojanalaya",
+      "cuisines": ["Indian", "Thali"],
+      "rating": 4.3,
+      "deliveryTime": "30-35 mins",
+      "costForTwo": 220,
+      "image": "https://picsum.photos/300/200?random=50",
+      "menuApi": "https://run.mocky.io/v3/menu-150"
+    },
+    {
+      "id": "151",
+      "name": "Wow China",
+      "cuisines": ["Chinese", "Asian"],
+      "rating": 4.1,
+      "deliveryTime": "30-35 mins",
+      "costForTwo": 260,
+      "image": "https://picsum.photos/300/200?random=51",
+      "menuApi": "https://run.mocky.io/v3/menu-151"
+    },
+    {
+      "id": "152",
+      "name": "Tandoori Tales",
+      "cuisines": ["North Indian", "Tandoor"],
+      "rating": 4.4,
+      "deliveryTime": "35-40 mins",
+      "costForTwo": 350,
+      "image": "https://picsum.photos/300/200?random=52",
+      "menuApi": "https://run.mocky.io/v3/menu-152"
+    },
+    {
+      "id": "153",
+      "name": "Delhi Darbar",
+      "cuisines": ["Mughlai", "Biryani"],
+      "rating": 4.2,
+      "deliveryTime": "40-45 mins",
+      "costForTwo": 380,
+      "image": "https://picsum.photos/300/200?random=53",
+      "menuApi": "https://run.mocky.io/v3/menu-153"
+    },
+    {
+      "id": "154",
+      "name": "Urban Wraps",
+      "cuisines": ["Wraps", "Fast Food"],
+      "rating": 4.0,
+      "deliveryTime": "25-30 mins",
+      "costForTwo": 240,
+      "image": "https://picsum.photos/300/200?random=54",
+      "menuApi": "https://run.mocky.io/v3/menu-154"
+    },
+    {
+      "id": "155",
+      "name": "South Spice",
+      "cuisines": ["South Indian"],
+      "rating": 4.3,
+      "deliveryTime": "30-35 mins",
+      "costForTwo": 210,
+      "image": "https://picsum.photos/300/200?random=55",
+      "menuApi": "https://run.mocky.io/v3/menu-155"
+    },
+    {
+      "id": "156",
+      "name": "Bombay Sandwich Co.",
+      "cuisines": ["Sandwich", "Street Food"],
+      "rating": 4.1,
+      "deliveryTime": "20-25 mins",
+      "costForTwo": 200,
+      "image": "https://picsum.photos/300/200?random=56",
+      "menuApi": "https://run.mocky.io/v3/menu-156"
+    },
+    {
+      "id": "157",
+      "name": "Spice Route",
+      "cuisines": ["North Indian", "Chinese"],
+      "rating": 4.2,
+      "deliveryTime": "35-40 mins",
+      "costForTwo": 320,
+      "image": "https://picsum.photos/300/200?random=57",
+      "menuApi": "https://run.mocky.io/v3/menu-157"
+    },
+    {
+      "id": "158",
+      "name": "Royal Biryani House",
+      "cuisines": ["Biryani", "Hyderabadi"],
+      "rating": 4.5,
+      "deliveryTime": "40-45 mins",
+      "costForTwo": 420,
+      "image": "https://picsum.photos/300/200?random=58",
+      "menuApi": "https://run.mocky.io/v3/menu-158"
+    },
+    {
+      "id": "159",
+      "name": "Cafe Mocha",
+      "cuisines": ["Cafe", "Continental"],
+      "rating": 4.0,
+      "deliveryTime": "30-35 mins",
+      "costForTwo": 350,
+      "image": "https://picsum.photos/300/200?random=59",
+      "menuApi": "https://run.mocky.io/v3/menu-159"
+    },
+    {
+      "id": "160",
+      "name": "Chowmein Junction",
+      "cuisines": ["Chinese", "Fast Food"],
+      "rating": 4.1,
+      "deliveryTime": "25-30 mins",
+      "costForTwo": 230,
+      "image": "https://picsum.photos/300/200?random=60",
+      "menuApi": "https://run.mocky.io/v3/menu-160"
+    },
+    {
+      "id": "161",
+      "name": "Punjabi Zaika",
+      "cuisines": ["North Indian"],
+      "rating": 4.3,
+      "deliveryTime": "35-40 mins",
+      "costForTwo": 300,
+      "image": "https://picsum.photos/300/200?random=61",
+      "menuApi": "https://run.mocky.io/v3/menu-161"
+    },
+    {
+      "id": "162",
+      "name": "Healthy Bites",
+      "cuisines": ["Healthy", "Salads"],
+      "rating": 4.0,
+      "deliveryTime": "20-25 mins",
+      "costForTwo": 260,
+      "image": "https://picsum.photos/300/200?random=62",
+      "menuApi": "https://run.mocky.io/v3/menu-162"
+    },
+    {
+      "id": "163",
+      "name": "Grill Factory",
+      "cuisines": ["Grill", "BBQ"],
+      "rating": 4.4,
+      "deliveryTime": "40-45 mins",
+      "costForTwo": 450,
+      "image": "https://picsum.photos/300/200?random=63",
+      "menuApi": "https://run.mocky.io/v3/menu-163"
+    },
+    {
+      "id": "164",
+      "name": "Dosa Plaza",
+      "cuisines": ["South Indian"],
+      "rating": 4.2,
+      "deliveryTime": "25-30 mins",
+      "costForTwo": 190,
+      "image": "https://picsum.photos/300/200?random=64",
+      "menuApi": "https://run.mocky.io/v3/menu-164"
+    },
+    {
+      "id": "165",
+      "name": "Street Momos",
+      "cuisines": ["Momos", "Fast Food"],
+      "rating": 4.1,
+      "deliveryTime": "20-25 mins",
+      "costForTwo": 180,
+      "image": "https://picsum.photos/300/200?random=65",
+      "menuApi": "https://run.mocky.io/v3/menu-165"
+    },
+    {
+      "id": "166",
+      "name": "The Curry Leaf",
+      "cuisines": ["Indian", "South Indian"],
+      "rating": 4.3,
+      "deliveryTime": "30-35 mins",
+      "costForTwo": 280,
+      "image": "https://picsum.photos/300/200?random=66",
+      "menuApi": "https://run.mocky.io/v3/menu-166"
+    },
+    {
+      "id": "167",
+      "name": "Burger Barn",
+      "cuisines": ["Burgers"],
+      "rating": 4.0,
+      "deliveryTime": "25-30 mins",
+      "costForTwo": 260,
+      "image": "https://picsum.photos/300/200?random=67",
+      "menuApi": "https://run.mocky.io/v3/menu-167"
+    },
+    {
+      "id": "168",
+      "name": "Sweet Tooth",
+      "cuisines": ["Desserts", "Bakery"],
+      "rating": 4.6,
+      "deliveryTime": "20-25 mins",
+      "costForTwo": 220,
+      "image": "https://picsum.photos/300/200?random=68",
+      "menuApi": "https://run.mocky.io/v3/menu-168"
+    }
   ]
 }
