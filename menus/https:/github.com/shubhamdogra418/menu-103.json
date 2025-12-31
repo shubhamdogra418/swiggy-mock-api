@@ -4,10 +4,43 @@
   "categories": [
     {
       "id": "c1",
+      "title": "Recommended",
+      "items": [
+        {
+          "id": "i101",
+          "name": "Whopper",
+          "price": 18900,
+          "veg": false,
+          "description": "Signature flame-grilled beef burger",
+          "image": "https://picsum.photos/200/200?bk1",
+          "inStock": true
+        },
+        {
+          "id": "i102",
+          "name": "Veg Whopper",
+          "price": 15900,
+          "veg": true,
+          "description": "Flame-grilled veggie patty with fresh veggies",
+          "image": "https://picsum.photos/200/200?bk2",
+          "inStock": true
+        },
+        {
+          "id": "i103",
+          "name": "Chicken Royale",
+          "price": 17900,
+          "veg": false,
+          "description": "Crispy chicken burger with mayo",
+          "image": "https://picsum.photos/200/200?bk3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c2",
       "title": "Burgers",
       "items": [
         {
-          "id": "i301",
+          "id": "i201",
           "name": "Whopper",
           "price": 18900,
           "veg": false,
@@ -16,7 +49,7 @@
           "inStock": true
         },
         {
-          "id": "i302",
+          "id": "i202",
           "name": "Veg Whopper",
           "price": 15900,
           "veg": true,
@@ -25,27 +58,135 @@
           "inStock": true
         },
         {
-          "id": "i303",
+          "id": "i203",
           "name": "Chicken Royale",
           "price": 17900,
           "veg": false,
           "description": "Crispy chicken burger",
           "image": "https://picsum.photos/200/200?burger3",
           "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Chicken Whopper",
+          "price": 19900,
+          "veg": false,
+          "description": "Flame-grilled chicken patty with fresh toppings",
+          "image": "https://picsum.photos/200/200?burger4",
+          "inStock": true
+        },
+        {
+          "id": "i205",
+          "name": "Paneer King Burger",
+          "price": 16900,
+          "veg": true,
+          "description": "Crispy paneer patty with spicy sauce",
+          "image": "https://picsum.photos/200/200?burger5",
+          "inStock": true
         }
       ]
     },
     {
-      "id": "c2",
+      "id": "c3",
+      "title": "Wraps",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Chicken Crispy Wrap",
+          "price": 14900,
+          "veg": false,
+          "description": "Crispy chicken wrapped with sauces",
+          "image": "https://picsum.photos/200/200?wrap1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Veggie Wrap",
+          "price": 12900,
+          "veg": true,
+          "description": "Veg patty wrap with fresh veggies",
+          "image": "https://picsum.photos/200/200?wrap2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
       "title": "Sides",
       "items": [
         {
-          "id": "i304",
+          "id": "i401",
           "name": "French Fries",
           "price": 9900,
           "veg": true,
-          "description": "Crispy fries",
+          "description": "Crispy golden fries",
           "image": "https://picsum.photos/200/200?fries1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Peri Peri Fries",
+          "price": 11900,
+          "veg": true,
+          "description": "Fries tossed in peri peri seasoning",
+          "image": "https://picsum.photos/200/200?fries2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Chicken Nuggets",
+          "price": 14900,
+          "veg": false,
+          "description": "Crispy bite-sized chicken nuggets",
+          "image": "https://picsum.photos/200/200?nuggets1",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Desserts",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Chocolate Sundae",
+          "price": 8900,
+          "veg": true,
+          "description": "Vanilla soft serve with chocolate sauce",
+          "image": "https://picsum.photos/200/200?dessert1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Brownie with Ice Cream",
+          "price": 12900,
+          "veg": true,
+          "description": "Warm brownie served with vanilla ice cream",
+          "image": "https://picsum.photos/200/200?dessert2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Coca-Cola",
+          "price": 6000,
+          "veg": true,
+          "description": "500ml chilled Coke",
+          "image": "https://picsum.photos/200/200?drink1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Sprite",
+          "price": 6000,
+          "veg": true,
+          "description": "500ml chilled Sprite",
+          "image": "https://picsum.photos/200/200?drink2",
           "inStock": true
         }
       ]
