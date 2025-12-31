@@ -4,48 +4,180 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Rolls",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i2401",
+          "id": "i101",
           "name": "Chicken Tikka Roll",
           "price": 14900,
           "veg": false,
-          "description": "Chicken tikka in roll",
-          "image": "https://picsum.photos/200/200?chickenroll",
+          "description": "Spicy chicken tikka in roll",
+          "image": "https://picsum.photos/200/200?rmrec1",
           "inStock": true
         },
         {
-          "id": "i2402",
+          "id": "i102",
           "name": "Paneer Roll",
           "price": 12900,
           "veg": true,
           "description": "Paneer tikka roll",
-          "image": "https://picsum.photos/200/200?paneerroll",
+          "image": "https://picsum.photos/200/200?rmrec2",
           "inStock": true
         },
         {
-          "id": "i2403",
+          "id": "i103",
           "name": "Egg Roll",
-          "price": 9900,
+          "price": 10900,
           "veg": false,
-          "description": "Egg bhurji roll",
-          "image": "https://picsum.photos/200/200?eggroll",
+          "description": "Classic egg roll",
+          "image": "https://picsum.photos/200/200?rmrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Chicken Rolls",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Chicken Tikka Roll",
+          "price": 14900,
+          "veg": false,
+          "description": "Grilled chicken tikka roll",
+          "image": "https://picsum.photos/200/200?rmroll1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Chicken Seekh Roll",
+          "price": 15900,
+          "veg": false,
+          "description": "Seekh kebab roll",
+          "image": "https://picsum.photos/200/200?rmroll2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Chicken Malai Roll",
+          "price": 16900,
+          "veg": false,
+          "description": "Creamy chicken roll",
+          "image": "https://picsum.photos/200/200?rmroll3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Chicken Tandoori Roll",
+          "price": 15900,
+          "veg": false,
+          "description": "Tandoori chicken roll",
+          "image": "https://picsum.photos/200/200?rmroll4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Veg Rolls",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Paneer Tikka Roll",
+          "price": 12900,
+          "veg": true,
+          "description": "Paneer tikka in paratha",
+          "image": "https://picsum.photos/200/200?rmveg1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Aloo Roll",
+          "price": 9900,
+          "veg": true,
+          "description": "Spicy potato roll",
+          "image": "https://picsum.photos/200/200?rmveg2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Veg Seekh Roll",
+          "price": 11900,
+          "veg": true,
+          "description": "Veg seekh kebab roll",
+          "image": "https://picsum.photos/200/200?rmveg3",
+          "inStock": true
+        },
+        {
+          "id": "i304",
+          "name": "Cheese Roll",
+          "price": 13900,
+          "veg": true,
+          "description": "Cheese loaded roll",
+          "image": "https://picsum.photos/200/200?rmveg4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Egg Rolls",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Single Egg Roll",
+          "price": 10900,
+          "veg": false,
+          "description": "Classic egg roll",
+          "image": "https://picsum.photos/200/200?rmegg1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Double Egg Roll",
+          "price": 13900,
+          "veg": false,
+          "description": "Double egg roll",
+          "image": "https://picsum.photos/200/200?rmegg2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Egg Chicken Roll",
+          "price": 17900,
+          "veg": false,
+          "description": "Egg with chicken roll",
+          "image": "https://picsum.photos/200/200?rmegg3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
       "title": "Combos",
       "items": [
         {
-          "id": "i2404",
-          "name": "Roll + Fries Combo",
-          "price": 19900,
+          "id": "i501",
+          "name": "Roll Combo",
+          "price": 24900,
           "veg": false,
-          "description": "Any roll with fries",
-          "image": "https://picsum.photos/200/200?rollcombo",
+          "description": "Any roll + fries + drink",
+          "image": "https://picsum.photos/200/200?rmcombo1",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Pepsi - 500ml",
+          "price": 5700,
+          "veg": true,
+          "description": "Chilled Pepsi",
+          "image": "https://picsum.photos/200/200?rmdrink1",
           "inStock": true
         }
       ]

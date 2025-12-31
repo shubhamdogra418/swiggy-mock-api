@@ -4,48 +4,207 @@
   "categories": [
     {
       "id": "c1",
-      "title": "BBQ",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i1301",
-          "name": "Tandoori Chicken",
+          "id": "i101",
+          "name": "BBQ Platter - Non Veg",
+          "price": 69900,
+          "veg": false,
+          "description": "Assorted grilled meats & sides",
+          "image": "https://picsum.photos/200/200?bbqrec1",
+          "inStock": true
+        },
+        {
+          "id": "i102",
+          "name": "BBQ Platter - Veg",
+          "price": 54900,
+          "veg": true,
+          "description": "Grilled vegetables & paneer",
+          "image": "https://picsum.photos/200/200?bbqrec2",
+          "inStock": true
+        },
+        {
+          "id": "i103",
+          "name": "Tandoori Chicken Full",
           "price": 39900,
           "veg": false,
-          "description": "Grilled chicken",
-          "image": "https://picsum.photos/200/200?tandoorichicken",
-          "inStock": true
-        },
-        {
-          "id": "i1302",
-          "name": "Paneer Tikka",
-          "price": 34900,
-          "veg": true,
-          "description": "Grilled paneer",
-          "image": "https://picsum.photos/200/200?paneertikka",
-          "inStock": true
-        },
-        {
-          "id": "i1303",
-          "name": "Seekh Kebab",
-          "price": 42900,
-          "veg": false,
-          "description": "Minced meat kebabs",
-          "image": "https://picsum.photos/200/200?seekh",
+          "description": "Full tandoori chicken",
+          "image": "https://picsum.photos/200/200?bbqrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Starters - Non Veg",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Chicken Tikka",
+          "price": 29900,
+          "veg": false,
+          "description": "Grilled chicken chunks",
+          "image": "https://picsum.photos/200/200?bbqstart1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Tandoori Chicken - Half",
+          "price": 24900,
+          "veg": false,
+          "description": "Half tandoori chicken",
+          "image": "https://picsum.photos/200/200?bbqstart2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Chicken Seekh Kebab",
+          "price": 27900,
+          "veg": false,
+          "description": "Minced chicken skewers",
+          "image": "https://picsum.photos/200/200?bbqstart3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Fish Tikka",
+          "price": 34900,
+          "veg": false,
+          "description": "Grilled fish pieces",
+          "image": "https://picsum.photos/200/200?bbqstart4",
+          "inStock": true
+        },
+        {
+          "id": "i205",
+          "name": "Prawns Tikka",
+          "price": 39900,
+          "veg": false,
+          "description": "Grilled prawns",
+          "image": "https://picsum.photos/200/200?bbqstart5",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Starters - Veg",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Paneer Tikka",
+          "price": 24900,
+          "veg": true,
+          "description": "Grilled paneer cubes",
+          "image": "https://picsum.photos/200/200?bbqveg1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Tandoori Mushroom",
+          "price": 21900,
+          "veg": true,
+          "description": "Grilled mushrooms",
+          "image": "https://picsum.photos/200/200?bbqveg2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Veg Seekh Kebab",
+          "price": 19900,
+          "veg": true,
+          "description": "Vegetable skewers",
+          "image": "https://picsum.photos/200/200?bbqveg3",
+          "inStock": true
+        },
+        {
+          "id": "i304",
+          "name": "Corn Tikka",
+          "price": 18900,
+          "veg": true,
+          "description": "Grilled corn",
+          "image": "https://picsum.photos/200/200?bbqveg4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
       "title": "Main Course",
       "items": [
         {
-          "id": "i1304",
+          "id": "i401",
           "name": "Butter Chicken",
-          "price": 37900,
+          "price": 32900,
           "veg": false,
-          "description": "Creamy butter chicken",
-          "image": "https://picsum.photos/200/200?butterchicken",
+          "description": "Creamy tomato chicken curry",
+          "image": "https://picsum.photos/200/200?bbqmain1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Dal Makhani",
+          "price": 22900,
+          "veg": true,
+          "description": "Creamy black lentils",
+          "image": "https://picsum.photos/200/200?bbqmain2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Paneer Butter Masala",
+          "price": 27900,
+          "veg": true,
+          "description": "Paneer in rich gravy",
+          "image": "https://picsum.photos/200/200?bbqmain3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Breads",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Butter Naan",
+          "price": 5900,
+          "veg": true,
+          "description": "Soft naan bread",
+          "image": "https://picsum.photos/200/200?bbqbread1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Garlic Naan",
+          "price": 6900,
+          "veg": true,
+          "description": "Garlic flavored naan",
+          "image": "https://picsum.photos/200/200?bbqbread2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Desserts",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Gulab Jamun - 2 Pcs",
+          "price": 8900,
+          "veg": true,
+          "description": "Sweet dumplings",
+          "image": "https://picsum.photos/200/200?bbqdes1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Ice Cream",
+          "price": 9900,
+          "veg": true,
+          "description": "Assorted flavors",
+          "image": "https://picsum.photos/200/200?bbqdes2",
           "inStock": true
         }
       ]

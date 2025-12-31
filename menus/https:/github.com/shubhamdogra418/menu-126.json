@@ -4,48 +4,174 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Waffles",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i2601",
+          "id": "i101",
           "name": "Chocolate Waffle",
           "price": 16900,
           "veg": true,
-          "description": "Waffle with chocolate sauce",
-          "image": "https://picsum.photos/200/200?chocowaffle",
+          "description": "Belgian waffle with chocolate sauce",
+          "image": "https://picsum.photos/200/200?bwrec1",
           "inStock": true
         },
         {
-          "id": "i2602",
+          "id": "i102",
           "name": "Nutella Waffle",
           "price": 19900,
           "veg": true,
-          "description": "Waffle with nutella",
-          "image": "https://picsum.photos/200/200?nutellawaffle",
+          "description": "Waffle with nutella spread",
+          "image": "https://picsum.photos/200/200?bwrec2",
           "inStock": true
         },
         {
-          "id": "i2603",
-          "name": "Red Velvet Waffle",
+          "id": "i103",
+          "name": "Strawberry & Cream Waffle",
           "price": 21900,
           "veg": true,
-          "description": "Red velvet waffle with cream cheese",
-          "image": "https://picsum.photos/200/200?redvelvet",
+          "description": "Fresh strawberries with cream",
+          "image": "https://picsum.photos/200/200?bwrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
-      "title": "Thick Shakes",
+      "title": "Sweet Waffles",
       "items": [
         {
-          "id": "i2604",
-          "name": "Chocolate Thick Shake",
-          "price": 14900,
+          "id": "i201",
+          "name": "Classic Waffle",
+          "price": 12900,
           "veg": true,
-          "description": "Rich chocolate shake",
-          "image": "https://picsum.photos/200/200?chocoshake",
+          "description": "Plain Belgian waffle",
+          "image": "https://picsum.photos/200/200?bwsweet1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Chocolate Waffle",
+          "price": 16900,
+          "veg": true,
+          "description": "With chocolate sauce",
+          "image": "https://picsum.photos/200/200?bwsweet2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Nutella Waffle",
+          "price": 19900,
+          "veg": true,
+          "description": "With nutella",
+          "image": "https://picsum.photos/200/200?bwsweet3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Strawberry Waffle",
+          "price": 21900,
+          "veg": true,
+          "description": "Fresh strawberries",
+          "image": "https://picsum.photos/200/200?bwsweet4",
+          "inStock": true
+        },
+        {
+          "id": "i205",
+          "name": "Banana Caramel Waffle",
+          "price": 20900,
+          "veg": true,
+          "description": "Banana with caramel sauce",
+          "image": "https://picsum.photos/200/200?bwsweet5",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Savory Waffles",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Chicken & Cheese Waffle",
+          "price": 24900,
+          "veg": false,
+          "description": "Chicken with melted cheese",
+          "image": "https://picsum.photos/200/200?bwsavory1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Veg & Cheese Waffle",
+          "price": 21900,
+          "veg": true,
+          "description": "Vegetables with cheese",
+          "image": "https://picsum.photos/200/200?bwsavory2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Paneer Tikka Waffle",
+          "price": 22900,
+          "veg": true,
+          "description": "Paneer tikka on waffle",
+          "image": "https://picsum.photos/200/200?bwsavory3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Waffle Sundae",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Chocolate Sundae Waffle",
+          "price": 23900,
+          "veg": true,
+          "description": "Waffle with ice cream & chocolate",
+          "image": "https://picsum.photos/200/200?bwsundae1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Strawberry Sundae Waffle",
+          "price": 24900,
+          "veg": true,
+          "description": "Waffle with ice cream & strawberry",
+          "image": "https://picsum.photos/200/200?bwsundae2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Shakes",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Chocolate Shake",
+          "price": 15900,
+          "veg": true,
+          "description": "Thick chocolate shake",
+          "image": "https://picsum.photos/200/200?bwshake1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Oreo Shake",
+          "price": 16900,
+          "veg": true,
+          "description": "Oreo cookies shake",
+          "image": "https://picsum.photos/200/200?bwshake2",
+          "inStock": true
+        },
+        {
+          "id": "i503",
+          "name": "Strawberry Shake",
+          "price": 15900,
+          "veg": true,
+          "description": "Fresh strawberry shake",
+          "image": "https://picsum.photos/200/200?bwshake3",
           "inStock": true
         }
       ]

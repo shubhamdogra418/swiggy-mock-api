@@ -4,48 +4,180 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Burgers",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i2501",
-          "name": "United States of India",
-          "price": 16900,
-          "veg": false,
-          "description": "Spicy chicken burger",
-          "image": "https://picsum.photos/200/200?usiburger",
-          "inStock": true
-        },
-        {
-          "id": "i2502",
-          "name": "Amritsari Paneer",
-          "price": 14900,
+          "id": "i101",
+          "name": "United States of Punjab Burger",
+          "price": 18900,
           "veg": true,
-          "description": "Amritsari paneer burger",
-          "image": "https://picsum.photos/200/200?amritsaripaneer",
+          "description": "Aloo tikki burger with desi twist",
+          "image": "https://picsum.photos/200/200?bsrec1",
           "inStock": true
         },
         {
-          "id": "i2503",
-          "name": "Singh Sizzler",
-          "price": 17900,
+          "id": "i102",
+          "name": "Amritsari Murgh Burger",
+          "price": 21900,
           "veg": false,
           "description": "Tandoori chicken burger",
-          "image": "https://picsum.photos/200/200?sizzler",
+          "image": "https://picsum.photos/200/200?bsrec2",
+          "inStock": true
+        },
+        {
+          "id": "i103",
+          "name": "Paneer Makhani Burger",
+          "price": 19900,
+          "veg": true,
+          "description": "Paneer in makhani sauce burger",
+          "image": "https://picsum.photos/200/200?bsrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Veg Burgers",
+      "items": [
+        {
+          "id": "i201",
+          "name": "United States of Punjab",
+          "price": 18900,
+          "veg": true,
+          "description": "Aloo tikki burger",
+          "image": "https://picsum.photos/200/200?bsveg1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Paneer Makhani Burger",
+          "price": 19900,
+          "veg": true,
+          "description": "Paneer tikka burger",
+          "image": "https://picsum.photos/200/200?bsveg2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Veg Chatpata Burger",
+          "price": 17900,
+          "veg": true,
+          "description": "Spicy veg patty burger",
+          "image": "https://picsum.photos/200/200?bsveg3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Non-Veg Burgers",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Amritsari Murgh Burger",
+          "price": 21900,
+          "veg": false,
+          "description": "Tandoori chicken burger",
+          "image": "https://picsum.photos/200/200?bsnv1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Butter Chicken Burger",
+          "price": 22900,
+          "veg": false,
+          "description": "Chicken in butter masala",
+          "image": "https://picsum.photos/200/200?bsnv2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Keema Pav Burger",
+          "price": 23900,
+          "veg": false,
+          "description": "Minced chicken burger",
+          "image": "https://picsum.photos/200/200?bsnv3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
       "title": "Sides",
       "items": [
         {
-          "id": "i2504",
-          "name": "Peri Peri Fries",
+          "id": "i401",
+          "name": "Masala Fries",
           "price": 9900,
           "veg": true,
-          "description": "Spicy peri peri fries",
-          "image": "https://picsum.photos/200/200?pereperifries",
+          "description": "Spicy masala fries",
+          "image": "https://picsum.photos/200/200?bsside1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Peri Peri Fries",
+          "price": 10900,
+          "veg": true,
+          "description": "Peri peri seasoned fries",
+          "image": "https://picsum.photos/200/200?bsside2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Chicken Wings - 6 Pcs",
+          "price": 18900,
+          "veg": false,
+          "description": "Spicy chicken wings",
+          "image": "https://picsum.photos/200/200?bsside3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Wraps",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Chicken Tikka Wrap",
+          "price": 17900,
+          "veg": false,
+          "description": "Chicken tikka in wrap",
+          "image": "https://picsum.photos/200/200?bswrap1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Paneer Wrap",
+          "price": 15900,
+          "veg": true,
+          "description": "Paneer tikka wrap",
+          "image": "https://picsum.photos/200/200?bswrap2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Masala Coke",
+          "price": 6900,
+          "veg": true,
+          "description": "Coke with Indian spices",
+          "image": "https://picsum.photos/200/200?bsdrink1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Lassi",
+          "price": 7900,
+          "veg": true,
+          "description": "Traditional yogurt drink",
+          "image": "https://picsum.photos/200/200?bsdrink2",
           "inStock": true
         }
       ]

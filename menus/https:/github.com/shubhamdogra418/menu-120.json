@@ -4,48 +4,225 @@
   "categories": [
     {
       "id": "c1",
-      "title": "North Indian",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i2001",
-          "name": "Paneer Butter Masala",
-          "price": 28900,
-          "veg": true,
-          "description": "Creamy paneer curry",
-          "image": "https://picsum.photos/200/200?paneerbuttermasala",
-          "inStock": true
-        },
-        {
-          "id": "i2002",
-          "name": "Dal Makhani",
+          "id": "i101",
+          "name": "Dal Makhani with Naan",
           "price": 24900,
           "veg": true,
-          "description": "Creamy black lentils",
-          "image": "https://picsum.photos/200/200?dalmakhani",
+          "description": "Creamy dal with butter naan",
+          "image": "https://picsum.photos/200/200?parec1",
           "inStock": true
         },
         {
-          "id": "i2003",
-          "name": "Butter Chicken",
+          "id": "i102",
+          "name": "Butter Chicken with Naan",
           "price": 32900,
           "veg": false,
-          "description": "Creamy chicken curry",
-          "image": "https://picsum.photos/200/200?butterchicken2",
+          "description": "Classic butter chicken meal",
+          "image": "https://picsum.photos/200/200?parec2",
+          "inStock": true
+        },
+        {
+          "id": "i103",
+          "name": "Paneer Tikka",
+          "price": 26900,
+          "veg": true,
+          "description": "Tandoori paneer chunks",
+          "image": "https://picsum.photos/200/200?parec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Starters",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Paneer Tikka",
+          "price": 26900,
+          "veg": true,
+          "description": "Grilled paneer cubes",
+          "image": "https://picsum.photos/200/200?pastart1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Chicken Tikka",
+          "price": 29900,
+          "veg": false,
+          "description": "Tandoori chicken chunks",
+          "image": "https://picsum.photos/200/200?pastart2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Tandoori Chicken - Half",
+          "price": 27900,
+          "veg": false,
+          "description": "Half tandoori chicken",
+          "image": "https://picsum.photos/200/200?pastart3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Hara Bhara Kabab",
+          "price": 21900,
+          "veg": true,
+          "description": "Spinach & peas kabab",
+          "image": "https://picsum.photos/200/200?pastart4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Main Course - Veg",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Dal Makhani",
+          "price": 21900,
+          "veg": true,
+          "description": "Creamy black lentils",
+          "image": "https://picsum.photos/200/200?pamain1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Paneer Butter Masala",
+          "price": 26900,
+          "veg": true,
+          "description": "Paneer in rich tomato gravy",
+          "image": "https://picsum.photos/200/200?pamain2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Palak Paneer",
+          "price": 25900,
+          "veg": true,
+          "description": "Paneer in spinach gravy",
+          "image": "https://picsum.photos/200/200?pamain3",
+          "inStock": true
+        },
+        {
+          "id": "i304",
+          "name": "Rajma Masala",
+          "price": 19900,
+          "veg": true,
+          "description": "Kidney beans curry",
+          "image": "https://picsum.photos/200/200?pamain4",
+          "inStock": true
+        },
+        {
+          "id": "i305",
+          "name": "Kadai Paneer",
+          "price": 27900,
+          "veg": true,
+          "description": "Spicy paneer with peppers",
+          "image": "https://picsum.photos/200/200?pamain5",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Main Course - Non Veg",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Butter Chicken",
+          "price": 32900,
+          "veg": false,
+          "description": "Creamy tomato chicken curry",
+          "image": "https://picsum.photos/200/200?panv1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Chicken Curry",
+          "price": 28900,
+          "veg": false,
+          "description": "Traditional chicken curry",
+          "image": "https://picsum.photos/200/200?panv2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Mutton Rogan Josh",
+          "price": 39900,
+          "veg": false,
+          "description": "Kashmiri mutton curry",
+          "image": "https://picsum.photos/200/200?panv3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
       "title": "Breads",
       "items": [
         {
-          "id": "i2004",
+          "id": "i501",
           "name": "Butter Naan",
+          "price": 4900,
+          "veg": true,
+          "description": "Soft butter naan",
+          "image": "https://picsum.photos/200/200?pabread1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Garlic Naan",
           "price": 5900,
           "veg": true,
-          "description": "Buttered naan bread",
-          "image": "https://picsum.photos/200/200?butternaan",
+          "description": "Garlic topped naan",
+          "image": "https://picsum.photos/200/200?pabread2",
+          "inStock": true
+        },
+        {
+          "id": "i503",
+          "name": "Tandoori Roti",
+          "price": 3900,
+          "veg": true,
+          "description": "Whole wheat roti",
+          "image": "https://picsum.photos/200/200?pabread3",
+          "inStock": true
+        },
+        {
+          "id": "i504",
+          "name": "Laccha Paratha",
+          "price": 5900,
+          "veg": true,
+          "description": "Layered paratha",
+          "image": "https://picsum.photos/200/200?pabread4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Rice",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Jeera Rice",
+          "price": 16900,
+          "veg": true,
+          "description": "Cumin flavored rice",
+          "image": "https://picsum.photos/200/200?parice1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Veg Biryani",
+          "price": 22900,
+          "veg": true,
+          "description": "Aromatic veg biryani",
+          "image": "https://picsum.photos/200/200?parice2",
           "inStock": true
         }
       ]

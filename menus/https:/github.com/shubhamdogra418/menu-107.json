@@ -4,48 +4,243 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Snacks",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i701",
-          "name": "Samosa",
-          "price": 4900,
+          "id": "i101",
+          "name": "Aloo Tikki Chaat",
+          "price": 8900,
           "veg": true,
-          "description": "Crispy samosa",
-          "image": "https://picsum.photos/200/200?samosa",
+          "description": "Crispy potato patties with chutneys",
+          "image": "https://picsum.photos/200/200?haldrec1",
           "inStock": true
         },
         {
-          "id": "i702",
-          "name": "Kachori",
-          "price": 5900,
+          "id": "i102",
+          "name": "Chole Bhature",
+          "price": 14900,
           "veg": true,
-          "description": "Stuffed kachori",
-          "image": "https://picsum.photos/200/200?kachori",
+          "description": "Spicy chickpeas with fried bread",
+          "image": "https://picsum.photos/200/200?haldrec2",
           "inStock": true
         },
         {
-          "id": "i703",
-          "name": "Pav Bhaji",
+          "id": "i103",
+          "name": "Raj Kachori",
           "price": 12900,
           "veg": true,
-          "description": "Spicy vegetable curry",
-          "image": "https://picsum.photos/200/200?pavbhaji",
+          "description": "Large crispy kachori with yogurt & chutneys",
+          "image": "https://picsum.photos/200/200?haldrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Chaats",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Papdi Chaat",
+          "price": 7900,
+          "veg": true,
+          "description": "Crispy papdi with yogurt & tamarind",
+          "image": "https://picsum.photos/200/200?chaat1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Dahi Bhalla",
+          "price": 8900,
+          "veg": true,
+          "description": "Lentil dumplings in yogurt",
+          "image": "https://picsum.photos/200/200?chaat2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Samosa Chaat",
+          "price": 9900,
+          "veg": true,
+          "description": "Crushed samosa with chickpeas",
+          "image": "https://picsum.photos/200/200?chaat3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Bhel Puri",
+          "price": 6900,
+          "veg": true,
+          "description": "Puffed rice with tangy chutneys",
+          "image": "https://picsum.photos/200/200?chaat4",
+          "inStock": true
+        },
+        {
+          "id": "i205",
+          "name": "Pani Puri - 6 Pcs",
+          "price": 5900,
+          "veg": true,
+          "description": "Crispy puris with spicy water",
+          "image": "https://picsum.photos/200/200?chaat5",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Main Course",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Chole Bhature",
+          "price": 14900,
+          "veg": true,
+          "description": "Chickpea curry with bhatura",
+          "image": "https://picsum.photos/200/200?main1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Paneer Tikka Masala",
+          "price": 18900,
+          "veg": true,
+          "description": "Cottage cheese in spicy gravy",
+          "image": "https://picsum.photos/200/200?main2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Dal Makhani",
+          "price": 16900,
+          "veg": true,
+          "description": "Creamy black lentils",
+          "image": "https://picsum.photos/200/200?main3",
+          "inStock": true
+        },
+        {
+          "id": "i304",
+          "name": "Veg Thali",
+          "price": 22900,
+          "veg": true,
+          "description": "Complete meal with dal, sabzi, roti, rice",
+          "image": "https://picsum.photos/200/200?main4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Snacks",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Samosa - 2 Pcs",
+          "price": 4900,
+          "veg": true,
+          "description": "Crispy potato filled samosas",
+          "image": "https://picsum.photos/200/200?snack1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Kachori - 2 Pcs",
+          "price": 5900,
+          "veg": true,
+          "description": "Spicy dal filled kachoris",
+          "image": "https://picsum.photos/200/200?snack2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Aloo Tikki - 2 Pcs",
+          "price": 6900,
+          "veg": true,
+          "description": "Potato patties",
+          "image": "https://picsum.photos/200/200?snack3",
+          "inStock": true
+        },
+        {
+          "id": "i404",
+          "name": "Namkeen Mix",
+          "price": 7900,
+          "veg": true,
+          "description": "Crunchy savory mix",
+          "image": "https://picsum.photos/200/200?snack4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
       "title": "Sweets",
       "items": [
         {
-          "id": "i704",
-          "name": "Gulab Jamun",
-          "price": 7900,
+          "id": "i501",
+          "name": "Gulab Jamun - 2 Pcs",
+          "price": 6900,
           "veg": true,
-          "description": "Sweet dumplings in syrup",
-          "image": "https://picsum.photos/200/200?gulabjamun",
+          "description": "Sweet milk solid balls in sugar syrup",
+          "image": "https://picsum.photos/200/200?sweet1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Rasmalai - 2 Pcs",
+          "price": 8900,
+          "veg": true,
+          "description": "Soft cheese patties in sweet milk",
+          "image": "https://picsum.photos/200/200?sweet2",
+          "inStock": true
+        },
+        {
+          "id": "i503",
+          "name": "Rasgulla - 2 Pcs",
+          "price": 6900,
+          "veg": true,
+          "description": "Soft cheese balls in sugar syrup",
+          "image": "https://picsum.photos/200/200?sweet3",
+          "inStock": true
+        },
+        {
+          "id": "i504",
+          "name": "Motichoor Ladoo - 4 Pcs",
+          "price": 9900,
+          "veg": true,
+          "description": "Sweet gram flour balls",
+          "image": "https://picsum.photos/200/200?sweet4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Masala Chai",
+          "price": 3900,
+          "veg": true,
+          "description": "Spiced Indian tea",
+          "image": "https://picsum.photos/200/200?chai1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Lassi - Sweet",
+          "price": 6900,
+          "veg": true,
+          "description": "Sweet yogurt drink",
+          "image": "https://picsum.photos/200/200?lassi1",
+          "inStock": true
+        },
+        {
+          "id": "i603",
+          "name": "Lassi - Salted",
+          "price": 6900,
+          "veg": true,
+          "description": "Salted yogurt drink",
+          "image": "https://picsum.photos/200/200?lassi2",
           "inStock": true
         }
       ]

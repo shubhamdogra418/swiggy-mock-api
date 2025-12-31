@@ -4,48 +4,222 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Wraps",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i1001",
+          "id": "i101",
           "name": "Chicken Tikka Wrap",
           "price": 16900,
           "veg": false,
-          "description": "Spicy chicken wrap",
-          "image": "https://picsum.photos/200/200?chickenwrap",
+          "description": "Spicy chicken tikka in tortilla",
+          "image": "https://picsum.photos/200/200?faarec1",
           "inStock": true
         },
         {
-          "id": "i1002",
+          "id": "i102",
           "name": "Paneer Wrap",
           "price": 14900,
           "veg": true,
-          "description": "Paneer tikka wrap",
-          "image": "https://picsum.photos/200/200?paneerwrap",
+          "description": "Paneer tikka wrap with sauces",
+          "image": "https://picsum.photos/200/200?faarec2",
           "inStock": true
         },
         {
-          "id": "i1003",
-          "name": "Egg Wrap",
-          "price": 12900,
+          "id": "i103",
+          "name": "Chicken Kebab Wrap",
+          "price": 17900,
           "veg": false,
-          "description": "Egg bhurji wrap",
-          "image": "https://picsum.photos/200/200?eggwrap",
+          "description": "Chicken seekh kebab wrap",
+          "image": "https://picsum.photos/200/200?faarec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
-      "title": "Biryanis",
+      "title": "Wraps",
       "items": [
         {
-          "id": "i1004",
-          "name": "Boneless Chicken Biryani",
+          "id": "i201",
+          "name": "Chicken Tikka Wrap",
+          "price": 16900,
+          "veg": false,
+          "description": "Grilled chicken tikka in tortilla",
+          "image": "https://picsum.photos/200/200?faawrap1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Paneer Wrap",
+          "price": 14900,
+          "veg": true,
+          "description": "Paneer tikka wrap",
+          "image": "https://picsum.photos/200/200?faawrap2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Egg Wrap",
+          "price": 12900,
+          "veg": false,
+          "description": "Scrambled egg wrap",
+          "image": "https://picsum.photos/200/200?faawrap3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Chicken Seekh Wrap",
+          "price": 17900,
+          "veg": false,
+          "description": "Seekh kebab wrap",
+          "image": "https://picsum.photos/200/200?faawrap4",
+          "inStock": true
+        },
+        {
+          "id": "i205",
+          "name": "Veg Supreme Wrap",
+          "price": 13900,
+          "veg": true,
+          "description": "Mixed vegetable wrap",
+          "image": "https://picsum.photos/200/200?faawrap5",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Rolls",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Chicken Kathi Roll",
+          "price": 15900,
+          "veg": false,
+          "description": "Chicken in paratha",
+          "image": "https://picsum.photos/200/200?faaroll1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Paneer Kathi Roll",
+          "price": 13900,
+          "veg": true,
+          "description": "Paneer in paratha",
+          "image": "https://picsum.photos/200/200?faaroll2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Egg Kathi Roll",
+          "price": 11900,
+          "veg": false,
+          "description": "Egg roll in paratha",
+          "image": "https://picsum.photos/200/200?faaroll3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Rice Bowls",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Chicken Rice Bowl",
+          "price": 18900,
+          "veg": false,
+          "description": "Chicken with flavored rice",
+          "image": "https://picsum.photos/200/200?faabowl1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Paneer Rice Bowl",
+          "price": 16900,
+          "veg": true,
+          "description": "Paneer with flavored rice",
+          "image": "https://picsum.photos/200/200?faabowl2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Egg Rice Bowl",
+          "price": 14900,
+          "veg": false,
+          "description": "Egg with flavored rice",
+          "image": "https://picsum.photos/200/200?faabowl3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Biryani",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Chicken Biryani",
           "price": 21900,
           "veg": false,
-          "description": "Chicken biryani",
-          "image": "https://picsum.photos/200/200?faasosbiryani",
+          "description": "Aromatic chicken biryani",
+          "image": "https://picsum.photos/200/200?faabiryani1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Veg Biryani",
+          "price": 18900,
+          "veg": true,
+          "description": "Mixed vegetable biryani",
+          "image": "https://picsum.photos/200/200?faabiryani2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Sides",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Chicken Wings - 4 Pcs",
+          "price": 14900,
+          "veg": false,
+          "description": "Spicy chicken wings",
+          "image": "https://picsum.photos/200/200?faaside1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Fries",
+          "price": 7900,
+          "veg": true,
+          "description": "Crispy french fries",
+          "image": "https://picsum.photos/200/200?faaside2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i701",
+          "name": "Pepsi - 500ml",
+          "price": 5700,
+          "veg": true,
+          "description": "Chilled Pepsi",
+          "image": "https://picsum.photos/200/200?faadrink1",
+          "inStock": true
+        },
+        {
+          "id": "i702",
+          "name": "Thumbs Up - 500ml",
+          "price": 5700,
+          "veg": true,
+          "description": "Chilled Thumbs Up",
+          "image": "https://picsum.photos/200/200?faadrink2",
           "inStock": true
         }
       ]

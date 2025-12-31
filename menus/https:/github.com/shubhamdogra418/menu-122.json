@@ -4,48 +4,216 @@
   "categories": [
     {
       "id": "c1",
-      "title": "South Indian",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i2201",
+          "id": "i101",
           "name": "Masala Dosa",
           "price": 12900,
           "veg": true,
           "description": "Crispy dosa with potato filling",
-          "image": "https://picsum.photos/200/200?masaladosa",
+          "image": "https://picsum.photos/200/200?uprec1",
           "inStock": true
         },
         {
-          "id": "i2202",
-          "name": "Idli Sambar",
-          "price": 8900,
-          "veg": true,
-          "description": "Steamed rice cakes with sambar",
-          "image": "https://picsum.photos/200/200?idli",
-          "inStock": true
-        },
-        {
-          "id": "i2203",
-          "name": "Vada Sambar",
+          "id": "i102",
+          "name": "Idli Sambar - 4 Pcs",
           "price": 9900,
           "veg": true,
-          "description": "Fried lentil donuts with sambar",
-          "image": "https://picsum.photos/200/200?vada",
+          "description": "Steamed rice cakes with sambar",
+          "image": "https://picsum.photos/200/200?uprec2",
+          "inStock": true
+        },
+        {
+          "id": "i103",
+          "name": "Onion Rava Dosa",
+          "price": 13900,
+          "veg": true,
+          "description": "Crispy semolina dosa with onions",
+          "image": "https://picsum.photos/200/200?uprec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Dosas",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Plain Dosa",
+          "price": 9900,
+          "veg": true,
+          "description": "Classic plain dosa",
+          "image": "https://picsum.photos/200/200?updosa1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Masala Dosa",
+          "price": 12900,
+          "veg": true,
+          "description": "Dosa with potato filling",
+          "image": "https://picsum.photos/200/200?updosa2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Onion Dosa",
+          "price": 11900,
+          "veg": true,
+          "description": "Dosa with onion topping",
+          "image": "https://picsum.photos/200/200?updosa3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Mysore Masala Dosa",
+          "price": 14900,
+          "veg": true,
+          "description": "Spicy dosa with red chutney",
+          "image": "https://picsum.photos/200/200?updosa4",
+          "inStock": true
+        },
+        {
+          "id": "i205",
+          "name": "Rava Dosa",
+          "price": 12900,
+          "veg": true,
+          "description": "Crispy semolina dosa",
+          "image": "https://picsum.photos/200/200?updosa5",
+          "inStock": true
+        },
+        {
+          "id": "i206",
+          "name": "Cheese Dosa",
+          "price": 16900,
+          "veg": true,
+          "description": "Dosa with cheese filling",
+          "image": "https://picsum.photos/200/200?updosa6",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Idli & Vada",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Idli - 4 Pcs",
+          "price": 9900,
+          "veg": true,
+          "description": "Steamed rice cakes",
+          "image": "https://picsum.photos/200/200?upidli1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Medu Vada - 3 Pcs",
+          "price": 10900,
+          "veg": true,
+          "description": "Crispy lentil donuts",
+          "image": "https://picsum.photos/200/200?upvada1",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Idli Vada Combo",
+          "price": 13900,
+          "veg": true,
+          "description": "2 Idli & 1 Vada",
+          "image": "https://picsum.photos/200/200?upcombo1",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Uttapam",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Plain Uttapam",
+          "price": 11900,
+          "veg": true,
+          "description": "Thick rice pancake",
+          "image": "https://picsum.photos/200/200?uputta1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Onion Uttapam",
+          "price": 12900,
+          "veg": true,
+          "description": "Uttapam with onions",
+          "image": "https://picsum.photos/200/200?uputta2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Mixed Veg Uttapam",
+          "price": 14900,
+          "veg": true,
+          "description": "Uttapam with vegetables",
+          "image": "https://picsum.photos/200/200?uputta3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Rice Items",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Sambar Rice",
+          "price": 14900,
+          "veg": true,
+          "description": "Rice with sambar",
+          "image": "https://picsum.photos/200/200?uprice1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Curd Rice",
+          "price": 11900,
+          "veg": true,
+          "description": "Rice with yogurt",
+          "image": "https://picsum.photos/200/200?uprice2",
+          "inStock": true
+        },
+        {
+          "id": "i503",
+          "name": "Lemon Rice",
+          "price": 12900,
+          "veg": true,
+          "description": "Tangy lemon flavored rice",
+          "image": "https://picsum.photos/200/200?uprice3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
       "title": "Beverages",
       "items": [
         {
-          "id": "i2204",
+          "id": "i601",
           "name": "Filter Coffee",
           "price": 5900,
           "veg": true,
           "description": "South Indian filter coffee",
-          "image": "https://picsum.photos/200/200?filtercoffee",
+          "image": "https://picsum.photos/200/200?upcoffee1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Masala Chai",
+          "price": 4900,
+          "veg": true,
+          "description": "Spiced tea",
+          "image": "https://picsum.photos/200/200?uptea1",
           "inStock": true
         }
       ]

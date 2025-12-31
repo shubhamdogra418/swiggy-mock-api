@@ -4,48 +4,258 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Pizzas",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i3001",
-          "name": "Margherita Classica",
-          "price": 29900,
+          "id": "i101",
+          "name": "Margherita Pizza",
+          "price": 26900,
           "veg": true,
-          "description": "Classic Italian margherita",
-          "image": "https://picsum.photos/200/200?margheritaclassica",
+          "description": "Classic tomato & mozzarella pizza",
+          "image": "https://picsum.photos/200/200?perec1",
           "inStock": true
         },
         {
-          "id": "i3002",
-          "name": "American Hot",
+          "id": "i102",
+          "name": "Pepperoni Pizza",
+          "price": 32900,
+          "veg": false,
+          "description": "Loaded with pepperoni",
+          "image": "https://picsum.photos/200/200?perec2",
+          "inStock": true
+        },
+        {
+          "id": "i103",
+          "name": "BBQ Chicken Pizza",
           "price": 34900,
           "veg": false,
-          "description": "Spicy pepperoni pizza",
-          "image": "https://picsum.photos/200/200?americanhot",
-          "inStock": true
-        },
-        {
-          "id": "i3003",
-          "name": "Four Seasons",
-          "price": 37900,
-          "veg": false,
-          "description": "Pizza with 4 toppings",
-          "image": "https://picsum.photos/200/200?fourseasons",
+          "description": "Chicken with BBQ sauce",
+          "image": "https://picsum.photos/200/200?perec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Veg Pizzas",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Margherita",
+          "price": 26900,
+          "veg": true,
+          "description": "Classic tomato & cheese",
+          "image": "https://picsum.photos/200/200?pepizza1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Farmhouse",
+          "price": 29900,
+          "veg": true,
+          "description": "Mixed vegetables pizza",
+          "image": "https://picsum.photos/200/200?pepizza2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Paneer Tikka Pizza",
+          "price": 31900,
+          "veg": true,
+          "description": "Paneer tikka with onions",
+          "image": "https://picsum.photos/200/200?pepizza3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Mexican Green Wave",
+          "price": 30900,
+          "veg": true,
+          "description": "Mexican style veg pizza",
+          "image": "https://picsum.photos/200/200?pepizza4",
+          "inStock": true
+        },
+        {
+          "id": "i205",
+          "name": "Veggie Supreme",
+          "price": 32900,
+          "veg": true,
+          "description": "Loaded vegetable pizza",
+          "image": "https://picsum.photos/200/200?pepizza5",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Non-Veg Pizzas",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Pepperoni",
+          "price": 32900,
+          "veg": false,
+          "description": "Classic pepperoni pizza",
+          "image": "https://picsum.photos/200/200?penvpizza1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Chicken Supreme",
+          "price": 34900,
+          "veg": false,
+          "description": "Loaded chicken pizza",
+          "image": "https://picsum.photos/200/200?penvpizza2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "BBQ Chicken",
+          "price": 34900,
+          "veg": false,
+          "description": "BBQ chicken with onions",
+          "image": "https://picsum.photos/200/200?penvpizza3",
+          "inStock": true
+        },
+        {
+          "id": "i304",
+          "name": "Chicken Tikka Pizza",
+          "price": 35900,
+          "veg": false,
+          "description": "Tandoori chicken pizza",
+          "image": "https://picsum.photos/200/200?penvpizza4",
+          "inStock": true
+        },
+        {
+          "id": "i305",
+          "name": "Meat Lovers",
+          "price": 39900,
+          "veg": false,
+          "description": "Multiple meat toppings",
+          "image": "https://picsum.photos/200/200?penvpizza5",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Sides",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Garlic Bread",
+          "price": 12900,
+          "veg": true,
+          "description": "Toasted garlic bread",
+          "image": "https://picsum.photos/200/200?peside1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Cheesy Garlic Bread",
+          "price": 15900,
+          "veg": true,
+          "description": "Garlic bread with cheese",
+          "image": "https://picsum.photos/200/200?peside2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Potato Wedges",
+          "price": 11900,
+          "veg": true,
+          "description": "Crispy potato wedges",
+          "image": "https://picsum.photos/200/200?peside3",
+          "inStock": true
+        },
+        {
+          "id": "i404",
+          "name": "Chicken Wings - 6 Pcs",
+          "price": 19900,
+          "veg": false,
+          "description": "Spicy chicken wings",
+          "image": "https://picsum.photos/200/200?peside4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
       "title": "Pasta",
       "items": [
         {
-          "id": "i3004",
-          "name": "Penne Arrabiata",
-          "price": 26900,
+          "id": "i501",
+          "name": "Alfredo Pasta",
+          "price": 22900,
           "veg": true,
-          "description": "Spicy tomato pasta",
-          "image": "https://picsum.photos/200/200?arrabiata",
+          "description": "Creamy white sauce pasta",
+          "image": "https://picsum.photos/200/200?pepasta1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Arrabiata Pasta",
+          "price": 21900,
+          "veg": true,
+          "description": "Spicy red sauce pasta",
+          "image": "https://picsum.photos/200/200?pepasta2",
+          "inStock": true
+        },
+        {
+          "id": "i503",
+          "name": "Chicken Pasta",
+          "price": 25900,
+          "veg": false,
+          "description": "Pasta with grilled chicken",
+          "image": "https://picsum.photos/200/200?pepasta3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Coke - 500ml",
+          "price": 5700,
+          "veg": true,
+          "description": "Chilled Coca-Cola",
+          "image": "https://picsum.photos/200/200?pedrink1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Sprite - 500ml",
+          "price": 5700,
+          "veg": true,
+          "description": "Chilled Sprite",
+          "image": "https://picsum.photos/200/200?pedrink2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "title": "Desserts",
+      "items": [
+        {
+          "id": "i701",
+          "name": "Chocolate Lava Cake",
+          "price": 14900,
+          "veg": true,
+          "description": "Warm chocolate cake with molten center",
+          "image": "https://picsum.photos/200/200?pedes1",
+          "inStock": true
+        },
+        {
+          "id": "i702",
+          "name": "Tiramisu",
+          "price": 16900,
+          "veg": true,
+          "description": "Classic Italian dessert",
+          "image": "https://picsum.photos/200/200?pedes2",
           "inStock": true
         }
       ]

@@ -4,48 +4,183 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Ice Cream",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i1801",
+          "id": "i101",
           "name": "Tender Coconut",
-          "price": 12900,
+          "price": 14900,
           "veg": true,
           "description": "Fresh coconut ice cream",
-          "image": "https://picsum.photos/200/200?coconuticecream",
+          "image": "https://picsum.photos/200/200?nicrec1",
           "inStock": true
         },
         {
-          "id": "i1802",
-          "name": "Mango",
-          "price": 11900,
-          "veg": true,
-          "description": "Alphonso mango ice cream",
-          "image": "https://picsum.photos/200/200?mangoicecream",
-          "inStock": true
-        },
-        {
-          "id": "i1803",
-          "name": "Sitaphal",
-          "price": 13900,
+          "id": "i102",
+          "name": "Sitafal (Custard Apple)",
+          "price": 16900,
           "veg": true,
           "description": "Custard apple ice cream",
-          "image": "https://picsum.photos/200/200?sitaphal",
+          "image": "https://picsum.photos/200/200?nicrec2",
+          "inStock": true
+        },
+        {
+          "id": "i103",
+          "name": "Mango",
+          "price": 14900,
+          "veg": true,
+          "description": "Natural mango ice cream",
+          "image": "https://picsum.photos/200/200?nicrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Ice Cream Scoops",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Tender Coconut - 100ml",
+          "price": 14900,
+          "veg": true,
+          "description": "Fresh coconut flavor",
+          "image": "https://picsum.photos/200/200?nicic1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Mango - 100ml",
+          "price": 14900,
+          "veg": true,
+          "description": "Alphonso mango",
+          "image": "https://picsum.photos/200/200?nicic2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Strawberry - 100ml",
+          "price": 13900,
+          "veg": true,
+          "description": "Fresh strawberry",
+          "image": "https://picsum.photos/200/200?nicic3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Chocolate - 100ml",
+          "price": 13900,
+          "veg": true,
+          "description": "Rich chocolate",
+          "image": "https://picsum.photos/200/200?nicic4",
+          "inStock": true
+        },
+        {
+          "id": "i205",
+          "name": "Vanilla - 100ml",
+          "price": 12900,
+          "veg": true,
+          "description": "Classic vanilla",
+          "image": "https://picsum.photos/200/200?nicic5",
+          "inStock": true
+        },
+        {
+          "id": "i206",
+          "name": "Sitafal - 100ml",
+          "price": 16900,
+          "veg": true,
+          "description": "Custard apple (seasonal)",
+          "image": "https://picsum.photos/200/200?nicic6",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
       "title": "Sundaes",
       "items": [
         {
-          "id": "i1804",
-          "name": "Chocolate Sundae",
+          "id": "i301",
+          "name": "Hot Chocolate Fudge",
+          "price": 19900,
+          "veg": true,
+          "description": "Ice cream with hot fudge",
+          "image": "https://picsum.photos/200/200?nicsun1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Caramel Sundae",
+          "price": 18900,
+          "veg": true,
+          "description": "Ice cream with caramel sauce",
+          "image": "https://picsum.photos/200/200?nicsun2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Brownie Sundae",
+          "price": 22900,
+          "veg": true,
+          "description": "Ice cream with brownie",
+          "image": "https://picsum.photos/200/200?nicsun3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Milkshakes",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Mango Milkshake",
           "price": 16900,
           "veg": true,
-          "description": "Chocolate ice cream sundae",
-          "image": "https://picsum.photos/200/200?chocosundae",
+          "description": "Creamy mango shake",
+          "image": "https://picsum.photos/200/200?nicshake1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Chocolate Milkshake",
+          "price": 15900,
+          "veg": true,
+          "description": "Rich chocolate shake",
+          "image": "https://picsum.photos/200/200?nicshake2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Strawberry Milkshake",
+          "price": 15900,
+          "veg": true,
+          "description": "Fresh strawberry shake",
+          "image": "https://picsum.photos/200/200?nicshake3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Tubs",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Ice Cream Tub - 500ml",
+          "price": 39900,
+          "veg": true,
+          "description": "Choose your flavor",
+          "image": "https://picsum.photos/200/200?nictub1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Ice Cream Tub - 1L",
+          "price": 74900,
+          "veg": true,
+          "description": "Family size tub",
+          "image": "https://picsum.photos/200/200?nictub2",
           "inStock": true
         }
       ]

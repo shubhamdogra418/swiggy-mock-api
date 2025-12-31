@@ -4,48 +4,189 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Ice Cream",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i1901",
-          "name": "Chocolate Fudge",
-          "price": 14900,
-          "veg": true,
-          "description": "Rich chocolate ice cream",
-          "image": "https://picsum.photos/200/200?chocofudge",
-          "inStock": true
-        },
-        {
-          "id": "i1902",
-          "name": "Strawberry",
-          "price": 13900,
-          "veg": true,
-          "description": "Fresh strawberry ice cream",
-          "image": "https://picsum.photos/200/200?strawberry",
-          "inStock": true
-        },
-        {
-          "id": "i1903",
-          "name": "Mint Chocolate Chip",
+          "id": "i101",
+          "name": "Belgium Chocolate",
           "price": 15900,
           "veg": true,
-          "description": "Mint ice cream with chocolate chips",
-          "image": "https://picsum.photos/200/200?mintchoco",
+          "description": "Rich Belgian chocolate ice cream",
+          "image": "https://picsum.photos/200/200?brrec1",
+          "inStock": true
+        },
+        {
+          "id": "i102",
+          "name": "Mango Tango",
+          "price": 14900,
+          "veg": true,
+          "description": "Fresh mango ice cream",
+          "image": "https://picsum.photos/200/200?brrec2",
+          "inStock": true
+        },
+        {
+          "id": "i103",
+          "name": "Cookies & Cream",
+          "price": 16900,
+          "veg": true,
+          "description": "Vanilla with cookie chunks",
+          "image": "https://picsum.photos/200/200?brrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Ice Cream Scoops",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Belgium Chocolate - Single",
+          "price": 15900,
+          "veg": true,
+          "description": "One scoop",
+          "image": "https://picsum.photos/200/200?bric1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Strawberry - Single",
+          "price": 14900,
+          "veg": true,
+          "description": "One scoop",
+          "image": "https://picsum.photos/200/200?bric2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Vanilla - Single",
+          "price": 13900,
+          "veg": true,
+          "description": "One scoop",
+          "image": "https://picsum.photos/200/200?bric3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Mint Chocolate Chip - Single",
+          "price": 15900,
+          "veg": true,
+          "description": "One scoop",
+          "image": "https://picsum.photos/200/200?bric4",
+          "inStock": true
+        },
+        {
+          "id": "i205",
+          "name": "Butterscotch - Single",
+          "price": 14900,
+          "veg": true,
+          "description": "One scoop",
+          "image": "https://picsum.photos/200/200?bric5",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
       "title": "Sundaes",
       "items": [
         {
-          "id": "i1904",
-          "name": "Brownie Sundae",
+          "id": "i301",
+          "name": "Hot Fudge Sundae",
           "price": 21900,
           "veg": true,
-          "description": "Brownie with ice cream",
-          "image": "https://picsum.photos/200/200?browniesundae",
+          "description": "Ice cream with hot fudge",
+          "image": "https://picsum.photos/200/200?brsun1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Brownie Sundae",
+          "price": 24900,
+          "veg": true,
+          "description": "Ice cream with brownie",
+          "image": "https://picsum.photos/200/200?brsun2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Classic Banana Split",
+          "price": 26900,
+          "veg": true,
+          "description": "3 scoops with banana & toppings",
+          "image": "https://picsum.photos/200/200?brsun3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Milkshakes",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Chocolate Shake",
+          "price": 18900,
+          "veg": true,
+          "description": "Thick chocolate milkshake",
+          "image": "https://picsum.photos/200/200?brshake1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Strawberry Shake",
+          "price": 18900,
+          "veg": true,
+          "description": "Thick strawberry milkshake",
+          "image": "https://picsum.photos/200/200?brshake2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Mango Shake",
+          "price": 18900,
+          "veg": true,
+          "description": "Thick mango milkshake",
+          "image": "https://picsum.photos/200/200?brshake3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Ice Cream Cakes",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Small Cake - 500g",
+          "price": 59900,
+          "veg": true,
+          "description": "Ice cream cake",
+          "image": "https://picsum.photos/200/200?brcake1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Medium Cake - 1kg",
+          "price": 99900,
+          "veg": true,
+          "description": "Ice cream cake",
+          "image": "https://picsum.photos/200/200?brcake2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Tubs",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Take Home Tub - 500ml",
+          "price": 42900,
+          "veg": true,
+          "description": "Your favorite flavor",
+          "image": "https://picsum.photos/200/200?brtub1",
           "inStock": true
         }
       ]

@@ -4,48 +4,201 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Coffee",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i1701",
-          "name": "Caffe Latte",
+          "id": "i101",
+          "name": "Caramel Macchiato",
           "price": 24900,
           "veg": true,
-          "description": "Espresso with milk",
-          "image": "https://picsum.photos/200/200?sbuxlatte",
+          "description": "Espresso with vanilla & caramel",
+          "image": "https://picsum.photos/200/200?sbrec1",
           "inStock": true
         },
         {
-          "id": "i1702",
-          "name": "Caramel Macchiato",
-          "price": 29900,
+          "id": "i102",
+          "name": "Java Chip Frappuccino",
+          "price": 27900,
           "veg": true,
-          "description": "Vanilla and caramel latte",
-          "image": "https://picsum.photos/200/200?caramelmac",
+          "description": "Coffee blended with chocolate chips",
+          "image": "https://picsum.photos/200/200?sbrec2",
           "inStock": true
         },
         {
-          "id": "i1703",
-          "name": "Frappuccino",
+          "id": "i103",
+          "name": "Chicken Panini",
           "price": 32900,
-          "veg": true,
-          "description": "Blended iced coffee",
-          "image": "https://picsum.photos/200/200?frappuccino",
+          "veg": false,
+          "description": "Grilled chicken panini",
+          "image": "https://picsum.photos/200/200?sbrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Espresso",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Caffe Latte",
+          "price": 22900,
+          "veg": true,
+          "description": "Espresso with steamed milk",
+          "image": "https://picsum.photos/200/200?sbesp1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Cappuccino",
+          "price": 21900,
+          "veg": true,
+          "description": "Espresso with foamed milk",
+          "image": "https://picsum.photos/200/200?sbesp2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Americano",
+          "price": 19900,
+          "veg": true,
+          "description": "Espresso with hot water",
+          "image": "https://picsum.photos/200/200?sbesp3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Caramel Macchiato",
+          "price": 24900,
+          "veg": true,
+          "description": "Vanilla latte with caramel",
+          "image": "https://picsum.photos/200/200?sbesp4",
+          "inStock": true
+        },
+        {
+          "id": "i205",
+          "name": "Mocha",
+          "price": 25900,
+          "veg": true,
+          "description": "Chocolate espresso drink",
+          "image": "https://picsum.photos/200/200?sbesp5",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Frappuccino",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Java Chip Frappuccino",
+          "price": 27900,
+          "veg": true,
+          "description": "Coffee with chocolate chips",
+          "image": "https://picsum.photos/200/200?sbfrap1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Caramel Frappuccino",
+          "price": 26900,
+          "veg": true,
+          "description": "Caramel blended drink",
+          "image": "https://picsum.photos/200/200?sbfrap2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Mocha Frappuccino",
+          "price": 26900,
+          "veg": true,
+          "description": "Chocolate coffee blend",
+          "image": "https://picsum.photos/200/200?sbfrap3",
+          "inStock": true
+        },
+        {
+          "id": "i304",
+          "name": "Vanilla Frappuccino",
+          "price": 25900,
+          "veg": true,
+          "description": "Vanilla blended cream",
+          "image": "https://picsum.photos/200/200?sbfrap4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
       "title": "Food",
       "items": [
         {
-          "id": "i1704",
+          "id": "i401",
+          "name": "Chicken Panini",
+          "price": 32900,
+          "veg": false,
+          "description": "Grilled chicken sandwich",
+          "image": "https://picsum.photos/200/200?sbfood1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Veg Panini",
+          "price": 28900,
+          "veg": true,
+          "description": "Grilled vegetable sandwich",
+          "image": "https://picsum.photos/200/200?sbfood2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Croissant",
+          "price": 14900,
+          "veg": true,
+          "description": "Butter croissant",
+          "image": "https://picsum.photos/200/200?sbfood3",
+          "inStock": true
+        },
+        {
+          "id": "i404",
           "name": "Blueberry Muffin",
-          "price": 17900,
+          "price": 16900,
           "veg": true,
           "description": "Fresh blueberry muffin",
-          "image": "https://picsum.photos/200/200?blueberrymuffin",
+          "image": "https://picsum.photos/200/200?sbfood4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Tea",
+      "items": [
+        {
+          "id": "i501",
+          "name": "English Breakfast Tea",
+          "price": 17900,
+          "veg": true,
+          "description": "Classic black tea",
+          "image": "https://picsum.photos/200/200?sbtea1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Green Tea",
+          "price": 17900,
+          "veg": true,
+          "description": "Refreshing green tea",
+          "image": "https://picsum.photos/200/200?sbtea2",
+          "inStock": true
+        },
+        {
+          "id": "i503",
+          "name": "Chai Tea Latte",
+          "price": 21900,
+          "veg": true,
+          "description": "Spiced tea with milk",
+          "image": "https://picsum.photos/200/200?sbtea3",
           "inStock": true
         }
       ]

@@ -4,48 +4,189 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Chinese",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i2701",
-          "name": "Veg Hakka Noodles",
+          "id": "i101",
+          "name": "Hakka Noodles",
           "price": 17900,
           "veg": true,
           "description": "Stir-fried noodles",
-          "image": "https://picsum.photos/200/200?vegnoodles",
+          "image": "https://picsum.photos/200/200?cwrec1",
           "inStock": true
         },
         {
-          "id": "i2702",
-          "name": "Chicken Schezwan Noodles",
-          "price": 21900,
+          "id": "i102",
+          "name": "Chicken Fried Rice",
+          "price": 19900,
           "veg": false,
-          "description": "Spicy schezwan noodles",
-          "image": "https://picsum.photos/200/200?schezwan",
+          "description": "Classic fried rice",
+          "image": "https://picsum.photos/200/200?cwrec2",
           "inStock": true
         },
         {
-          "id": "i2703",
-          "name": "Veg Fried Rice",
-          "price": 18900,
+          "id": "i103",
+          "name": "Chilli Paneer",
+          "price": 21900,
           "veg": true,
-          "description": "Stir-fried rice",
-          "image": "https://picsum.photos/200/200?vegrice",
+          "description": "Spicy paneer in sauce",
+          "image": "https://picsum.photos/200/200?cwrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Noodles",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Veg Hakka Noodles",
+          "price": 17900,
+          "veg": true,
+          "description": "Vegetable hakka noodles",
+          "image": "https://picsum.photos/200/200?cwnood1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Chicken Hakka Noodles",
+          "price": 19900,
+          "veg": false,
+          "description": "Chicken hakka noodles",
+          "image": "https://picsum.photos/200/200?cwnood2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Schezwan Noodles",
+          "price": 18900,
+          "veg": true,
+          "description": "Spicy schezwan noodles",
+          "image": "https://picsum.photos/200/200?cwnood3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Singapore Noodles",
+          "price": 20900,
+          "veg": false,
+          "description": "Singapore style noodles",
+          "image": "https://picsum.photos/200/200?cwnood4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Fried Rice",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Veg Fried Rice",
+          "price": 16900,
+          "veg": true,
+          "description": "Vegetable fried rice",
+          "image": "https://picsum.photos/200/200?cwrice1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Chicken Fried Rice",
+          "price": 19900,
+          "veg": false,
+          "description": "Chicken fried rice",
+          "image": "https://picsum.photos/200/200?cwrice2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Schezwan Fried Rice",
+          "price": 17900,
+          "veg": true,
+          "description": "Spicy schezwan rice",
+          "image": "https://picsum.photos/200/200?cwrice3",
+          "inStock": true
+        },
+        {
+          "id": "i304",
+          "name": "Triple Rice",
+          "price": 22900,
+          "veg": false,
+          "description": "Three styles of rice",
+          "image": "https://picsum.photos/200/200?cwrice4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
       "title": "Starters",
       "items": [
         {
-          "id": "i2704",
-          "name": "Chicken Lollipop",
+          "id": "i401",
+          "name": "Chilli Paneer",
+          "price": 21900,
+          "veg": true,
+          "description": "Spicy paneer",
+          "image": "https://picsum.photos/200/200?cwstart1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Chilli Chicken",
+          "price": 23900,
+          "veg": false,
+          "description": "Spicy chicken",
+          "image": "https://picsum.photos/200/200?cwstart2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Spring Rolls - 6 Pcs",
+          "price": 16900,
+          "veg": true,
+          "description": "Crispy spring rolls",
+          "image": "https://picsum.photos/200/200?cwstart3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Main Course",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Manchurian Gravy",
+          "price": 19900,
+          "veg": true,
+          "description": "Veg balls in gravy",
+          "image": "https://picsum.photos/200/200?cwmain1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Chicken Manchurian",
           "price": 22900,
           "veg": false,
-          "description": "Crispy chicken wings",
-          "image": "https://picsum.photos/200/200?lollipop",
+          "description": "Chicken in manchurian sauce",
+          "image": "https://picsum.photos/200/200?cwmain2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Pepsi - 500ml",
+          "price": 5700,
+          "veg": true,
+          "description": "Chilled Pepsi",
+          "image": "https://picsum.photos/200/200?cwdrink1",
           "inStock": true
         }
       ]

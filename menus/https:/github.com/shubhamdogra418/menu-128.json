@@ -4,48 +4,180 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Continental",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i2801",
-          "name": "Grilled Chicken Steak",
-          "price": 34900,
+          "id": "i101",
+          "name": "Grilled Chicken Salad",
+          "price": 22900,
           "veg": false,
-          "description": "Grilled chicken with sides",
-          "image": "https://picsum.photos/200/200?chickensteak",
+          "description": "Fresh grilled chicken with greens",
+          "image": "https://picsum.photos/200/200?fmrec1",
           "inStock": true
         },
         {
-          "id": "i2802",
-          "name": "Pasta Alfredo",
-          "price": 28900,
+          "id": "i102",
+          "name": "Paneer Tikka Bowl",
+          "price": 20900,
           "veg": true,
-          "description": "Creamy white sauce pasta",
-          "image": "https://picsum.photos/200/200?alfredo",
+          "description": "Paneer tikka with rice & veggies",
+          "image": "https://picsum.photos/200/200?fmrec2",
           "inStock": true
         },
         {
-          "id": "i2803",
-          "name": "Risotto",
-          "price": 31900,
-          "veg": true,
-          "description": "Creamy Italian rice",
-          "image": "https://picsum.photos/200/200?risotto",
+          "id": "i103",
+          "name": "Chicken Biryani",
+          "price": 24900,
+          "veg": false,
+          "description": "Aromatic chicken biryani",
+          "image": "https://picsum.photos/200/200?fmrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
-      "title": "Indian",
+      "title": "Bowls",
       "items": [
         {
-          "id": "i2804",
-          "name": "Chicken Tikka Masala",
-          "price": 32900,
+          "id": "i201",
+          "name": "Chicken Tikka Bowl",
+          "price": 22900,
           "veg": false,
-          "description": "Chicken in tikka masala sauce",
-          "image": "https://picsum.photos/200/200?tikkamasala",
+          "description": "Chicken with rice & veggies",
+          "image": "https://picsum.photos/200/200?fmbowl1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Paneer Bowl",
+          "price": 20900,
+          "veg": true,
+          "description": "Paneer with quinoa",
+          "image": "https://picsum.photos/200/200?fmbowl2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Thai Curry Bowl",
+          "price": 21900,
+          "veg": true,
+          "description": "Thai curry with rice",
+          "image": "https://picsum.photos/200/200?fmbowl3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Salads",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Caesar Salad",
+          "price": 19900,
+          "veg": false,
+          "description": "Classic caesar with chicken",
+          "image": "https://picsum.photos/200/200?fmsalad1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Greek Salad",
+          "price": 17900,
+          "veg": true,
+          "description": "Fresh greek salad",
+          "image": "https://picsum.photos/200/200?fmsalad2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Quinoa Salad",
+          "price": 18900,
+          "veg": true,
+          "description": "Healthy quinoa salad",
+          "image": "https://picsum.photos/200/200?fmsalad3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Biryani",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Chicken Biryani",
+          "price": 24900,
+          "veg": false,
+          "description": "Classic chicken biryani",
+          "image": "https://picsum.photos/200/200?fmbiryani1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Veg Biryani",
+          "price": 21900,
+          "veg": true,
+          "description": "Vegetable biryani",
+          "image": "https://picsum.photos/200/200?fmbiryani2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Pasta",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Alfredo Pasta",
+          "price": 20900,
+          "veg": true,
+          "description": "Creamy alfredo pasta",
+          "image": "https://picsum.photos/200/200?fmpasta1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Arrabiata Pasta",
+          "price": 19900,
+          "veg": true,
+          "description": "Spicy tomato pasta",
+          "image": "https://picsum.photos/200/200?fmpasta2",
+          "inStock": true
+        },
+        {
+          "id": "i503",
+          "name": "Chicken Pesto Pasta",
+          "price": 23900,
+          "veg": false,
+          "description": "Pesto pasta with chicken",
+          "image": "https://picsum.photos/200/200?fmpasta3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Desserts",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Chocolate Brownie",
+          "price": 12900,
+          "veg": true,
+          "description": "Rich chocolate brownie",
+          "image": "https://picsum.photos/200/200?fmdes1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Tiramisu",
+          "price": 14900,
+          "veg": true,
+          "description": "Classic tiramisu",
+          "image": "https://picsum.photos/200/200?fmdes2",
           "inStock": true
         }
       ]

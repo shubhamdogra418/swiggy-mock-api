@@ -4,48 +4,276 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Chicken",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i501",
-          "name": "Hot & Crispy Chicken",
-          "price": 17900,
+          "id": "i101",
+          "name": "Hot & Crispy Chicken - 4 Pcs",
+          "price": 29900,
           "veg": false,
-          "description": "Crispy fried chicken pieces",
-          "image": "https://picsum.photos/200/200?kfc1",
+          "description": "KFC's signature crispy fried chicken",
+          "image": "https://picsum.photos/200/200?kfcrec1",
           "inStock": true
         },
         {
-          "id": "i502",
+          "id": "i102",
           "name": "Zinger Burger",
           "price": 19900,
           "veg": false,
-          "description": "Spicy chicken burger",
-          "image": "https://picsum.photos/200/200?kfc2",
+          "description": "Spicy crispy chicken burger",
+          "image": "https://picsum.photos/200/200?kfcrec2",
           "inStock": true
         },
         {
-          "id": "i503",
-          "name": "Popcorn Chicken",
-          "price": 14900,
+          "id": "i103",
+          "name": "Mingles Bucket",
+          "price": 39900,
           "veg": false,
-          "description": "Bite-sized chicken pieces",
-          "image": "https://picsum.photos/200/200?kfc3",
+          "description": "4 Hot Wings + 2 Chicken Strips + Reg Popcorn",
+          "image": "https://picsum.photos/200/200?kfcrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
-      "title": "Buckets",
+      "title": "Buckets & Combos",
       "items": [
         {
-          "id": "i504",
+          "id": "i201",
           "name": "Bucket for Two",
           "price": 59900,
           "veg": false,
-          "description": "Chicken bucket with sides",
-          "image": "https://picsum.photos/200/200?kfcbucket",
+          "description": "4 Hot & Crispy, 4 Wings, 2 Dips, 2 Pepsi",
+          "image": "https://picsum.photos/200/200?bucket1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Family Feast",
+          "price": 89900,
+          "veg": false,
+          "description": "8 Pc Chicken, Large Popcorn, 4 Wings, 4 Pepsi",
+          "image": "https://picsum.photos/200/200?bucket2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Big 8 Bucket",
+          "price": 67900,
+          "veg": false,
+          "description": "8 pieces of Hot & Crispy Chicken",
+          "image": "https://picsum.photos/200/200?bucket3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Popcorn Chicken Bucket",
+          "price": 34900,
+          "veg": false,
+          "description": "Large bite-sized popcorn chicken",
+          "image": "https://picsum.photos/200/200?bucket4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Burgers",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Zinger Burger",
+          "price": 19900,
+          "veg": false,
+          "description": "Spicy crispy chicken fillet with mayo",
+          "image": "https://picsum.photos/200/200?burger1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Veg Zinger",
+          "price": 17900,
+          "veg": true,
+          "description": "Crispy veg patty with spicy sauce",
+          "image": "https://picsum.photos/200/200?burger2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Classic Chicken Burger",
+          "price": 12900,
+          "veg": false,
+          "description": "Classic chicken patty burger",
+          "image": "https://picsum.photos/200/200?burger3",
+          "inStock": true
+        },
+        {
+          "id": "i304",
+          "name": "Tandoori Zinger",
+          "price": 21900,
+          "veg": false,
+          "description": "Tandoori flavored chicken fillet",
+          "image": "https://picsum.photos/200/200?burger4",
+          "inStock": true
+        },
+        {
+          "id": "i305",
+          "name": "Double Down Burger",
+          "price": 39900,
+          "veg": false,
+          "description": "2 chicken fillets with cheese & sauce",
+          "image": "https://picsum.photos/200/200?burger5",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Chicken",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Hot & Crispy Chicken - 1 Pc",
+          "price": 11900,
+          "veg": false,
+          "description": "Single piece of signature fried chicken",
+          "image": "https://picsum.photos/200/200?chicken1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Hot Wings - 4 Pcs",
+          "price": 17900,
+          "veg": false,
+          "description": "Spicy chicken wings",
+          "image": "https://picsum.photos/200/200?chicken2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Chicken Strips - 3 Pcs",
+          "price": 19900,
+          "veg": false,
+          "description": "Crispy chicken breast strips",
+          "image": "https://picsum.photos/200/200?chicken3",
+          "inStock": true
+        },
+        {
+          "id": "i404",
+          "name": "Popcorn Chicken - Medium",
+          "price": 14900,
+          "veg": false,
+          "description": "Bite-sized chicken pieces",
+          "image": "https://picsum.photos/200/200?chicken4",
+          "inStock": true
+        },
+        {
+          "id": "i405",
+          "name": "Smoky Grilled Chicken",
+          "price": 24900,
+          "veg": false,
+          "description": "Grilled chicken with smoky flavor",
+          "image": "https://picsum.photos/200/200?chicken5",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Sides",
+      "items": [
+        {
+          "id": "i501",
+          "name": "French Fries - Medium",
+          "price": 9900,
+          "veg": true,
+          "description": "Crispy golden fries",
+          "image": "https://picsum.photos/200/200?fries1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Peri Peri Fries",
+          "price": 11900,
+          "veg": true,
+          "description": "Spicy peri peri seasoned fries",
+          "image": "https://picsum.photos/200/200?fries2",
+          "inStock": true
+        },
+        {
+          "id": "i503",
+          "name": "Veg Patty",
+          "price": 5900,
+          "veg": true,
+          "description": "Single crispy veg patty",
+          "image": "https://picsum.photos/200/200?side1",
+          "inStock": true
+        },
+        {
+          "id": "i504",
+          "name": "Coleslaw - Regular",
+          "price": 7900,
+          "veg": true,
+          "description": "Fresh cabbage slaw",
+          "image": "https://picsum.photos/200/200?side2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Pepsi - 500ml",
+          "price": 5700,
+          "veg": true,
+          "description": "Chilled Pepsi",
+          "image": "https://picsum.photos/200/200?drink1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "7Up - 500ml",
+          "price": 5700,
+          "veg": true,
+          "description": "Chilled 7Up",
+          "image": "https://picsum.photos/200/200?drink2",
+          "inStock": true
+        },
+        {
+          "id": "i603",
+          "name": "Mountain Dew - 500ml",
+          "price": 5700,
+          "veg": true,
+          "description": "Chilled Mountain Dew",
+          "image": "https://picsum.photos/200/200?drink3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "title": "Desserts",
+      "items": [
+        {
+          "id": "i701",
+          "name": "Chocolate Lava Cake",
+          "price": 10900,
+          "veg": true,
+          "description": "Warm chocolate cake with molten center",
+          "image": "https://picsum.photos/200/200?dessert1",
+          "inStock": true
+        },
+        {
+          "id": "i702",
+          "name": "Soft Serve Ice Cream",
+          "price": 4900,
+          "veg": true,
+          "description": "Vanilla soft serve",
+          "image": "https://picsum.photos/200/200?dessert2",
           "inStock": true
         }
       ]

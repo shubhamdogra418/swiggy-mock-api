@@ -4,48 +4,165 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Bowls",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i1201",
-          "name": "Chicken Rice Bowl",
-          "price": 18900,
-          "veg": false,
-          "description": "Grilled chicken with rice",
-          "image": "https://picsum.photos/200/200?chickenbowl",
-          "inStock": true
-        },
-        {
-          "id": "i1202",
-          "name": "Paneer Rice Bowl",
-          "price": 16900,
-          "veg": true,
-          "description": "Paneer with rice",
-          "image": "https://picsum.photos/200/200?paneerbowl",
-          "inStock": true
-        },
-        {
-          "id": "i1203",
-          "name": "Veg Quinoa Bowl",
+          "id": "i101",
+          "name": "Protein Bowl - Chicken",
           "price": 19900,
+          "veg": false,
+          "description": "Grilled chicken with veggies & quinoa",
+          "image": "https://picsum.photos/200/200?gbrec1",
+          "inStock": true
+        },
+        {
+          "id": "i102",
+          "name": "Buddha Bowl",
+          "price": 17900,
           "veg": true,
-          "description": "Healthy quinoa bowl",
-          "image": "https://picsum.photos/200/200?quinoabowl",
+          "description": "Mixed grain bowl with vegetables",
+          "image": "https://picsum.photos/200/200?gbrec2",
+          "inStock": true
+        },
+        {
+          "id": "i103",
+          "name": "Paneer Tikka Bowl",
+          "price": 18900,
+          "veg": true,
+          "description": "Paneer tikka with brown rice",
+          "image": "https://picsum.photos/200/200?gbrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
-      "title": "Add-ons",
+      "title": "Signature Bowls",
       "items": [
         {
-          "id": "i1204",
-          "name": "Grilled Chicken",
-          "price": 9900,
+          "id": "i201",
+          "name": "Chicken Bowl",
+          "price": 19900,
           "veg": false,
-          "description": "Extra grilled chicken",
-          "image": "https://picsum.photos/200/200?extrachicken",
+          "description": "Grilled chicken with rice & veggies",
+          "image": "https://picsum.photos/200/200?bowl1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Egg Bowl",
+          "price": 16900,
+          "veg": false,
+          "description": "Boiled eggs with brown rice",
+          "image": "https://picsum.photos/200/200?bowl2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Paneer Bowl",
+          "price": 18900,
+          "veg": true,
+          "description": "Paneer with quinoa & veggies",
+          "image": "https://picsum.photos/200/200?bowl3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Vegan Bowl",
+          "price": 17900,
+          "veg": true,
+          "description": "Plant-based protein bowl",
+          "image": "https://picsum.photos/200/200?bowl4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Salads",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Chicken Caesar Salad",
+          "price": 18900,
+          "veg": false,
+          "description": "Grilled chicken with caesar dressing",
+          "image": "https://picsum.photos/200/200?salad1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Greek Salad",
+          "price": 15900,
+          "veg": true,
+          "description": "Fresh vegetables with feta",
+          "image": "https://picsum.photos/200/200?salad2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Quinoa Salad",
+          "price": 16900,
+          "veg": true,
+          "description": "Quinoa with mixed vegetables",
+          "image": "https://picsum.photos/200/200?salad3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Smoothie Bowls",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Acai Bowl",
+          "price": 16900,
+          "veg": true,
+          "description": "Acai with granola & fruits",
+          "image": "https://picsum.photos/200/200?smoothie1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Berry Bowl",
+          "price": 15900,
+          "veg": true,
+          "description": "Mixed berries smoothie bowl",
+          "image": "https://picsum.photos/200/200?smoothie2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Green Smoothie",
+          "price": 12900,
+          "veg": true,
+          "description": "Spinach & banana smoothie",
+          "image": "https://picsum.photos/200/200?drink1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Protein Shake",
+          "price": 14900,
+          "veg": true,
+          "description": "High protein shake",
+          "image": "https://picsum.photos/200/200?drink2",
+          "inStock": true
+        },
+        {
+          "id": "i503",
+          "name": "Fresh Juice",
+          "price": 9900,
+          "veg": true,
+          "description": "Seasonal fresh juice",
+          "image": "https://picsum.photos/200/200?drink3",
           "inStock": true
         }
       ]

@@ -4,48 +4,189 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Biryani",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i2101",
+          "id": "i101",
           "name": "Hyderabadi Chicken Biryani",
-          "price": 34900,
+          "price": 32900,
           "veg": false,
-          "description": "Authentic Hyderabadi biryani",
-          "image": "https://picsum.photos/200/200?hyderabadi",
+          "description": "Authentic Hyderabadi style biryani",
+          "image": "https://picsum.photos/200/200?pbrec1",
           "inStock": true
         },
         {
-          "id": "i2102",
+          "id": "i102",
           "name": "Mutton Biryani",
           "price": 42900,
           "veg": false,
-          "description": "Tender mutton biryani",
-          "image": "https://picsum.photos/200/200?paradisemutton",
+          "description": "Premium mutton biryani",
+          "image": "https://picsum.photos/200/200?pbrec2",
           "inStock": true
         },
         {
-          "id": "i2103",
-          "name": "Veg Biryani",
-          "price": 28900,
-          "veg": true,
-          "description": "Vegetable biryani",
-          "image": "https://picsum.photos/200/200?paradiseveg",
+          "id": "i103",
+          "name": "Paradise Special Biryani",
+          "price": 49900,
+          "veg": false,
+          "description": "Chef's special biryani",
+          "image": "https://picsum.photos/200/200?pbrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
-      "title": "Starters",
+      "title": "Biryani",
       "items": [
         {
-          "id": "i2104",
-          "name": "Chicken 65",
-          "price": 26900,
+          "id": "i201",
+          "name": "Chicken Biryani",
+          "price": 32900,
           "veg": false,
-          "description": "Spicy fried chicken",
-          "image": "https://picsum.photos/200/200?chicken65",
+          "description": "Classic chicken biryani",
+          "image": "https://picsum.photos/200/200?pbbiryan1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Mutton Biryani",
+          "price": 42900,
+          "veg": false,
+          "description": "Tender mutton biryani",
+          "image": "https://picsum.photos/200/200?pbbiryan2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Prawns Biryani",
+          "price": 39900,
+          "veg": false,
+          "description": "Fresh prawns biryani",
+          "image": "https://picsum.photos/200/200?pbbiryan3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Veg Biryani",
+          "price": 24900,
+          "veg": true,
+          "description": "Mixed vegetable biryani",
+          "image": "https://picsum.photos/200/200?pbbiryan4",
+          "inStock": true
+        },
+        {
+          "id": "i205",
+          "name": "Paneer Biryani",
+          "price": 28900,
+          "veg": true,
+          "description": "Paneer in aromatic rice",
+          "image": "https://picsum.photos/200/200?pbbiryan5",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Kebabs",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Chicken Seekh Kebab",
+          "price": 27900,
+          "veg": false,
+          "description": "Minced chicken kebabs",
+          "image": "https://picsum.photos/200/200?pbkebab1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Mutton Seekh Kebab",
+          "price": 32900,
+          "veg": false,
+          "description": "Minced mutton kebabs",
+          "image": "https://picsum.photos/200/200?pbkebab2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Paneer Tikka",
+          "price": 24900,
+          "veg": true,
+          "description": "Grilled paneer cubes",
+          "image": "https://picsum.photos/200/200?pbkebab3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Curries",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Chicken Curry",
+          "price": 29900,
+          "veg": false,
+          "description": "Traditional chicken curry",
+          "image": "https://picsum.photos/200/200?pbcurry1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Dal Makhani",
+          "price": 21900,
+          "veg": true,
+          "description": "Creamy black lentils",
+          "image": "https://picsum.photos/200/200?pbcurry2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Breads",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Butter Naan",
+          "price": 4900,
+          "veg": true,
+          "description": "Soft butter naan",
+          "image": "https://picsum.photos/200/200?pbbread1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Tandoori Roti",
+          "price": 3900,
+          "veg": true,
+          "description": "Whole wheat roti",
+          "image": "https://picsum.photos/200/200?pbbread2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Desserts",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Double Ka Meetha",
+          "price": 9900,
+          "veg": true,
+          "description": "Hyderabadi bread pudding",
+          "image": "https://picsum.photos/200/200?pbdes1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Qubani Ka Meetha",
+          "price": 10900,
+          "veg": true,
+          "description": "Apricot dessert",
+          "image": "https://picsum.photos/200/200?pbdes2",
           "inStock": true
         }
       ]

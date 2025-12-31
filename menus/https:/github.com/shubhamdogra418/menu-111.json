@@ -4,48 +4,189 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Thalis",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i1101",
-          "name": "Dal Tadka Thali",
-          "price": 17900,
+          "id": "i101",
+          "name": "Classic Thali",
+          "price": 19900,
           "veg": true,
-          "description": "Complete dal thali",
-          "image": "https://picsum.photos/200/200?dalthali",
+          "description": "2 Roti, Dal, Sabzi, Rice, Salad",
+          "image": "https://picsum.photos/200/200?lbrec1",
           "inStock": true
         },
         {
-          "id": "i1102",
-          "name": "Paneer Butter Masala Thali",
-          "price": 21900,
+          "id": "i102",
+          "name": "Paneer Tikka Meal",
+          "price": 22900,
           "veg": true,
-          "description": "Paneer thali",
-          "image": "https://picsum.photos/200/200?paneerthali",
+          "description": "Paneer tikka with rice and roti",
+          "image": "https://picsum.photos/200/200?lbrec2",
           "inStock": true
         },
         {
-          "id": "i1103",
-          "name": "Chicken Curry Thali",
+          "id": "i103",
+          "name": "Chicken Curry Meal",
           "price": 24900,
           "veg": false,
-          "description": "Chicken thali",
-          "image": "https://picsum.photos/200/200?chickenthali",
+          "description": "Chicken curry with rice and roti",
+          "image": "https://picsum.photos/200/200?lbrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Thalis",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Dal Tadka Thali",
+          "price": 18900,
+          "veg": true,
+          "description": "Dal tadka with roti and rice",
+          "image": "https://picsum.photos/200/200?thali1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Paneer Butter Masala Thali",
+          "price": 22900,
+          "veg": true,
+          "description": "Paneer butter masala meal",
+          "image": "https://picsum.photos/200/200?thali2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Chicken Thali",
+          "price": 24900,
+          "veg": false,
+          "description": "Chicken curry with sides",
+          "image": "https://picsum.photos/200/200?thali3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Rajma Chawal Thali",
+          "price": 19900,
+          "veg": true,
+          "description": "Rajma with rice and roti",
+          "image": "https://picsum.photos/200/200?thali4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
       "title": "Biryani",
       "items": [
         {
-          "id": "i1104",
-          "name": "Dum Biryani",
-          "price": 22900,
+          "id": "i301",
+          "name": "Veg Biryani",
+          "price": 18900,
+          "veg": true,
+          "description": "Aromatic vegetable biryani",
+          "image": "https://picsum.photos/200/200?lbbiryani1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Chicken Biryani",
+          "price": 21900,
           "veg": false,
-          "description": "Chicken biryani in lunch box",
-          "image": "https://picsum.photos/200/200?lunchboxbiryani",
+          "description": "Flavorful chicken biryani",
+          "image": "https://picsum.photos/200/200?lbbiryani2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Egg Biryani",
+          "price": 19900,
+          "veg": false,
+          "description": "Egg biryani with raita",
+          "image": "https://picsum.photos/200/200?lbbiryani3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Curries",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Dal Makhani",
+          "price": 16900,
+          "veg": true,
+          "description": "Creamy black lentils",
+          "image": "https://picsum.photos/200/200?lbcurry1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Paneer Butter Masala",
+          "price": 19900,
+          "veg": true,
+          "description": "Paneer in tomato gravy",
+          "image": "https://picsum.photos/200/200?lbcurry2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Chicken Curry",
+          "price": 21900,
+          "veg": false,
+          "description": "Traditional chicken curry",
+          "image": "https://picsum.photos/200/200?lbcurry3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Breads",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Roti - 4 Pcs",
+          "price": 4900,
+          "veg": true,
+          "description": "Whole wheat rotis",
+          "image": "https://picsum.photos/200/200?lbbread1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Butter Naan - 2 Pcs",
+          "price": 5900,
+          "veg": true,
+          "description": "Soft butter naan",
+          "image": "https://picsum.photos/200/200?lbbread2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Desserts",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Gulab Jamun - 2 Pcs",
+          "price": 5900,
+          "veg": true,
+          "description": "Sweet dessert",
+          "image": "https://picsum.photos/200/200?lbdes1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Kheer",
+          "price": 6900,
+          "veg": true,
+          "description": "Rice pudding",
+          "image": "https://picsum.photos/200/200?lbdes2",
           "inStock": true
         }
       ]

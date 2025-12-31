@@ -4,48 +4,225 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Biryani",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i801",
-          "name": "Chicken Biryani",
-          "price": 32900,
+          "id": "i101",
+          "name": "Hyderabadi Chicken Dum Biryani",
+          "price": 29900,
           "veg": false,
-          "description": "Fragrant chicken biryani",
-          "image": "https://picsum.photos/200/200?chickenbiryani",
+          "description": "Aromatic basmati rice with tender chicken",
+          "image": "https://picsum.photos/200/200?birec1",
           "inStock": true
         },
         {
-          "id": "i802",
-          "name": "Mutton Biryani",
+          "id": "i102",
+          "name": "Paneer Tikka Biryani",
+          "price": 24900,
+          "veg": true,
+          "description": "Spiced paneer in fragrant biryani",
+          "image": "https://picsum.photos/200/200?birec2",
+          "inStock": true
+        },
+        {
+          "id": "i103",
+          "name": "Mutton Dum Biryani",
           "price": 39900,
           "veg": false,
-          "description": "Tender mutton biryani",
-          "image": "https://picsum.photos/200/200?muttonbiryani",
-          "inStock": true
-        },
-        {
-          "id": "i803",
-          "name": "Veg Biryani",
-          "price": 27900,
-          "veg": true,
-          "description": "Vegetable biryani",
-          "image": "https://picsum.photos/200/200?vegbiryani",
+          "description": "Slow-cooked mutton biryani",
+          "image": "https://picsum.photos/200/200?birec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Biryani",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Chicken Biryani",
+          "price": 29900,
+          "veg": false,
+          "description": "Classic chicken biryani",
+          "image": "https://picsum.photos/200/200?biryani1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Mutton Biryani",
+          "price": 39900,
+          "veg": false,
+          "description": "Tender mutton biryani",
+          "image": "https://picsum.photos/200/200?biryani2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Egg Biryani",
+          "price": 21900,
+          "veg": false,
+          "description": "Boiled eggs in spiced rice",
+          "image": "https://picsum.photos/200/200?biryani3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Veg Biryani",
+          "price": 19900,
+          "veg": true,
+          "description": "Mixed vegetables biryani",
+          "image": "https://picsum.photos/200/200?biryani4",
+          "inStock": true
+        },
+        {
+          "id": "i205",
+          "name": "Paneer Biryani",
+          "price": 24900,
+          "veg": true,
+          "description": "Paneer chunks in aromatic rice",
+          "image": "https://picsum.photos/200/200?biryani5",
+          "inStock": true
+        },
+        {
+          "id": "i206",
+          "name": "Prawns Biryani",
+          "price": 34900,
+          "veg": false,
+          "description": "Fresh prawns biryani",
+          "image": "https://picsum.photos/200/200?biryani6",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
       "title": "Kebabs",
       "items": [
         {
-          "id": "i804",
-          "name": "Seekh Kebab",
+          "id": "i301",
+          "name": "Chicken Seekh Kebab",
           "price": 24900,
           "veg": false,
-          "description": "Minced meat kebabs",
-          "image": "https://picsum.photos/200/200?seekhkebab",
+          "description": "Minced chicken skewers",
+          "image": "https://picsum.photos/200/200?kebab1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Mutton Seekh Kebab",
+          "price": 29900,
+          "veg": false,
+          "description": "Minced mutton skewers",
+          "image": "https://picsum.photos/200/200?kebab2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Paneer Tikka",
+          "price": 21900,
+          "veg": true,
+          "description": "Grilled paneer cubes",
+          "image": "https://picsum.photos/200/200?kebab3",
+          "inStock": true
+        },
+        {
+          "id": "i304",
+          "name": "Chicken Tikka",
+          "price": 26900,
+          "veg": false,
+          "description": "Spiced grilled chicken",
+          "image": "https://picsum.photos/200/200?kebab4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Curries",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Butter Chicken",
+          "price": 28900,
+          "veg": false,
+          "description": "Creamy tomato chicken curry",
+          "image": "https://picsum.photos/200/200?curry1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Dal Makhani",
+          "price": 19900,
+          "veg": true,
+          "description": "Creamy black lentils",
+          "image": "https://picsum.photos/200/200?curry2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Paneer Butter Masala",
+          "price": 24900,
+          "veg": true,
+          "description": "Paneer in rich tomato gravy",
+          "image": "https://picsum.photos/200/200?curry3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Breads",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Butter Naan",
+          "price": 4900,
+          "veg": true,
+          "description": "Soft leavened bread",
+          "image": "https://picsum.photos/200/200?bread1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Garlic Naan",
+          "price": 5900,
+          "veg": true,
+          "description": "Naan with garlic topping",
+          "image": "https://picsum.photos/200/200?bread2",
+          "inStock": true
+        },
+        {
+          "id": "i503",
+          "name": "Tandoori Roti",
+          "price": 3900,
+          "veg": true,
+          "description": "Whole wheat flatbread",
+          "image": "https://picsum.photos/200/200?bread3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Pepsi - 500ml",
+          "price": 5700,
+          "veg": true,
+          "description": "Chilled Pepsi",
+          "image": "https://picsum.photos/200/200?pepsi1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Lassi",
+          "price": 7900,
+          "veg": true,
+          "description": "Refreshing yogurt drink",
+          "image": "https://picsum.photos/200/200?lassi3",
           "inStock": true
         }
       ]

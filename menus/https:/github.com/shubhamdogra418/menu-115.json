@@ -4,48 +4,189 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Chinese",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i1501",
-          "name": "Veg Manchurian",
-          "price": 24900,
-          "veg": true,
-          "description": "Spicy veg balls in sauce",
-          "image": "https://picsum.photos/200/200?manchurian",
-          "inStock": true
-        },
-        {
-          "id": "i1502",
-          "name": "Chicken Fried Rice",
-          "price": 27900,
+          "id": "i101",
+          "name": "Kung Pao Chicken",
+          "price": 32900,
           "veg": false,
-          "description": "Stir-fried rice with chicken",
-          "image": "https://picsum.photos/200/200?chickenrice",
+          "description": "Spicy chicken with peanuts",
+          "image": "https://picsum.photos/200/200?mcrec1",
           "inStock": true
         },
         {
-          "id": "i1503",
-          "name": "Hakka Noodles",
-          "price": 22900,
+          "id": "i102",
+          "name": "Chilli Paneer Dry",
+          "price": 28900,
           "veg": true,
-          "description": "Stir-fried noodles",
-          "image": "https://picsum.photos/200/200?hakkanoodles",
+          "description": "Spicy paneer in Chinese sauce",
+          "image": "https://picsum.photos/200/200?mcrec2",
+          "inStock": true
+        },
+        {
+          "id": "i103",
+          "name": "Dimsums Platter",
+          "price": 34900,
+          "veg": false,
+          "description": "Assorted dimsums",
+          "image": "https://picsum.photos/200/200?mcrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
-      "title": "Soups",
+      "title": "Starters",
       "items": [
         {
-          "id": "i1504",
-          "name": "Hot & Sour Soup",
-          "price": 14900,
+          "id": "i201",
+          "name": "Chicken Manchurian",
+          "price": 29900,
+          "veg": false,
+          "description": "Crispy chicken in manchurian sauce",
+          "image": "https://picsum.photos/200/200?mcstart1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Chilli Chicken",
+          "price": 31900,
+          "veg": false,
+          "description": "Spicy chicken with peppers",
+          "image": "https://picsum.photos/200/200?mcstart2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Veg Manchurian",
+          "price": 24900,
           "veg": true,
-          "description": "Spicy tangy soup",
-          "image": "https://picsum.photos/200/200?hotsour",
+          "description": "Vegetable balls in sauce",
+          "image": "https://picsum.photos/200/200?mcstart3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Spring Rolls - 6 Pcs",
+          "price": 21900,
+          "veg": true,
+          "description": "Crispy vegetable rolls",
+          "image": "https://picsum.photos/200/200?mcstart4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Main Course",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Kung Pao Chicken",
+          "price": 32900,
+          "veg": false,
+          "description": "Spicy chicken with peanuts",
+          "image": "https://picsum.photos/200/200?mcmain1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Szechuan Chicken",
+          "price": 34900,
+          "veg": false,
+          "description": "Spicy szechuan style chicken",
+          "image": "https://picsum.photos/200/200?mcmain2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Paneer Schezwan",
+          "price": 29900,
+          "veg": true,
+          "description": "Paneer in spicy sauce",
+          "image": "https://picsum.photos/200/200?mcmain3",
+          "inStock": true
+        },
+        {
+          "id": "i304",
+          "name": "Veg Hakka Noodles",
+          "price": 24900,
+          "veg": true,
+          "description": "Stir-fried noodles",
+          "image": "https://picsum.photos/200/200?mcmain4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Rice & Noodles",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Chicken Fried Rice",
+          "price": 26900,
+          "veg": false,
+          "description": "Fried rice with chicken",
+          "image": "https://picsum.photos/200/200?mcrice1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Veg Fried Rice",
+          "price": 22900,
+          "veg": true,
+          "description": "Vegetable fried rice",
+          "image": "https://picsum.photos/200/200?mcrice2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Chicken Hakka Noodles",
+          "price": 27900,
+          "veg": false,
+          "description": "Hakka noodles with chicken",
+          "image": "https://picsum.photos/200/200?mcnood1",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Soup",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Hot & Sour Soup",
+          "price": 16900,
+          "veg": true,
+          "description": "Spicy and tangy soup",
+          "image": "https://picsum.photos/200/200?mcsoup1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Chicken Manchow Soup",
+          "price": 18900,
+          "veg": false,
+          "description": "Spicy chicken soup",
+          "image": "https://picsum.photos/200/200?mcsoup2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Iced Tea",
+          "price": 8900,
+          "veg": true,
+          "description": "Refreshing iced tea",
+          "image": "https://picsum.photos/200/200?mcdrink1",
           "inStock": true
         }
       ]

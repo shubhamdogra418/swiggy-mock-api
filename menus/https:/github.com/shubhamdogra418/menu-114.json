@@ -4,48 +4,180 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Momos",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i1401",
-          "name": "Veg Steamed Momos",
-          "price": 13900,
-          "veg": true,
-          "description": "Steamed veg momos",
-          "image": "https://picsum.photos/200/200?vegmomos",
+          "id": "i101",
+          "name": "Chicken Momos - 8 Pcs",
+          "price": 14900,
+          "veg": false,
+          "description": "Steamed chicken dumplings",
+          "image": "https://picsum.photos/200/200?wowrec1",
           "inStock": true
         },
         {
-          "id": "i1402",
-          "name": "Chicken Momos",
+          "id": "i102",
+          "name": "Veg Momos - 8 Pcs",
+          "price": 11900,
+          "veg": true,
+          "description": "Steamed vegetable dumplings",
+          "image": "https://picsum.photos/200/200?wowrec2",
+          "inStock": true
+        },
+        {
+          "id": "i103",
+          "name": "Chicken Fried Momos - 8 Pcs",
           "price": 16900,
           "veg": false,
-          "description": "Steamed chicken momos",
-          "image": "https://picsum.photos/200/200?chickenmomos",
-          "inStock": true
-        },
-        {
-          "id": "i1403",
-          "name": "Fried Momos",
-          "price": 17900,
-          "veg": false,
-          "description": "Crispy fried momos",
-          "image": "https://picsum.photos/200/200?friedmomos",
+          "description": "Crispy fried chicken momos",
+          "image": "https://picsum.photos/200/200?wowrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
-      "title": "Dim Sum",
+      "title": "Steamed Momos",
       "items": [
         {
-          "id": "i1404",
-          "name": "Chicken Dim Sum",
-          "price": 19900,
+          "id": "i201",
+          "name": "Chicken Momos - 8 Pcs",
+          "price": 14900,
           "veg": false,
-          "description": "Chicken dim sum",
-          "image": "https://picsum.photos/200/200?dimsum",
+          "description": "Classic steamed chicken momos",
+          "image": "https://picsum.photos/200/200?momo1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Veg Momos - 8 Pcs",
+          "price": 11900,
+          "veg": true,
+          "description": "Classic steamed veg momos",
+          "image": "https://picsum.photos/200/200?momo2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Paneer Momos - 8 Pcs",
+          "price": 13900,
+          "veg": true,
+          "description": "Paneer filled momos",
+          "image": "https://picsum.photos/200/200?momo3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Chicken Cheese Momos - 8 Pcs",
+          "price": 16900,
+          "veg": false,
+          "description": "Chicken with cheese filling",
+          "image": "https://picsum.photos/200/200?momo4",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Fried Momos",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Chicken Fried Momos - 8 Pcs",
+          "price": 16900,
+          "veg": false,
+          "description": "Crispy fried chicken momos",
+          "image": "https://picsum.photos/200/200?fmomo1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Veg Fried Momos - 8 Pcs",
+          "price": 13900,
+          "veg": true,
+          "description": "Crispy fried veg momos",
+          "image": "https://picsum.photos/200/200?fmomo2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Paneer Fried Momos - 8 Pcs",
+          "price": 15900,
+          "veg": true,
+          "description": "Crispy fried paneer momos",
+          "image": "https://picsum.photos/200/200?fmomo3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Darjeeling Momos",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Chicken Darjeeling Momos",
+          "price": 18900,
+          "veg": false,
+          "description": "Momos in spicy sauce",
+          "image": "https://picsum.photos/200/200?dmomo1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Veg Darjeeling Momos",
+          "price": 15900,
+          "veg": true,
+          "description": "Veg momos in spicy sauce",
+          "image": "https://picsum.photos/200/200?dmomo2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Dimsum",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Chicken Dimsum - 6 Pcs",
+          "price": 17900,
+          "veg": false,
+          "description": "Steamed chicken dimsum",
+          "image": "https://picsum.photos/200/200?dim1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Veg Dimsum - 6 Pcs",
+          "price": 14900,
+          "veg": true,
+          "description": "Steamed veg dimsum",
+          "image": "https://picsum.photos/200/200?dim2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Pepsi - 500ml",
+          "price": 5700,
+          "veg": true,
+          "description": "Chilled Pepsi",
+          "image": "https://picsum.photos/200/200?wowdrink1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Iced Tea",
+          "price": 7900,
+          "veg": true,
+          "description": "Refreshing iced tea",
+          "image": "https://picsum.photos/200/200?wowdrink2",
           "inStock": true
         }
       ]

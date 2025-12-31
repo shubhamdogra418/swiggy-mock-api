@@ -4,48 +4,198 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Biryani",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i901",
-          "name": "Dum Chicken Biryani",
-          "price": 35900,
+          "id": "i101",
+          "name": "Royal Chicken Tikka Biryani",
+          "price": 34900,
           "veg": false,
-          "description": "Royal dum biryani",
-          "image": "https://picsum.photos/200/200?dumbiri",
+          "description": "Premium chicken tikka in aromatic rice",
+          "image": "https://picsum.photos/200/200?behrec1",
           "inStock": true
         },
         {
-          "id": "i902",
-          "name": "Subz-e-Biryani",
-          "price": 29900,
+          "id": "i102",
+          "name": "Subz-E-Biryani",
+          "price": 27900,
           "veg": true,
-          "description": "Vegetable biryani",
-          "image": "https://picsum.photos/200/200?vegdum",
+          "description": "Royal vegetable biryani",
+          "image": "https://picsum.photos/200/200?behrec2",
           "inStock": true
         },
         {
-          "id": "i903",
-          "name": "Royal Paneer Biryani",
-          "price": 32900,
-          "veg": true,
-          "description": "Paneer biryani",
-          "image": "https://picsum.photos/200/200?paneerbiryani",
+          "id": "i103",
+          "name": "Dum Gosht Biryani",
+          "price": 44900,
+          "veg": false,
+          "description": "Slow-cooked mutton biryani",
+          "image": "https://picsum.photos/200/200?behrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Royal Biryanis",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Chicken Dum Biryani",
+          "price": 32900,
+          "veg": false,
+          "description": "Classic dum cooked chicken biryani",
+          "image": "https://picsum.photos/200/200?behb1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Mutton Dum Biryani",
+          "price": 44900,
+          "veg": false,
+          "description": "Premium mutton biryani",
+          "image": "https://picsum.photos/200/200?behb2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Paneer Biryani",
+          "price": 28900,
+          "veg": true,
+          "description": "Cottage cheese biryani",
+          "image": "https://picsum.photos/200/200?behb3",
+          "inStock": true
+        },
+        {
+          "id": "i204",
+          "name": "Prawns Biryani",
+          "price": 39900,
+          "veg": false,
+          "description": "Fresh prawns biryani",
+          "image": "https://picsum.photos/200/200?behb4",
+          "inStock": true
+        },
+        {
+          "id": "i205",
+          "name": "Egg Biryani",
+          "price": 25900,
+          "veg": false,
+          "description": "Boiled eggs in fragrant rice",
+          "image": "https://picsum.photos/200/200?behb5",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
       "title": "Kebabs",
       "items": [
         {
-          "id": "i904",
-          "name": "Murgh Kebab",
+          "id": "i301",
+          "name": "Murgh Seekh Kebab",
           "price": 27900,
           "veg": false,
-          "description": "Chicken kebabs",
-          "image": "https://picsum.photos/200/200?murghkebab",
+          "description": "Minced chicken kebabs",
+          "image": "https://picsum.photos/200/200?behkeb1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Mutton Galouti Kebab",
+          "price": 32900,
+          "veg": false,
+          "description": "Soft melt-in-mouth mutton kebabs",
+          "image": "https://picsum.photos/200/200?behkeb2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Paneer Tikka Kebab",
+          "price": 24900,
+          "veg": true,
+          "description": "Grilled paneer tikka",
+          "image": "https://picsum.photos/200/200?behkeb3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Curries",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Murgh Makhani",
+          "price": 29900,
+          "veg": false,
+          "description": "Butter chicken curry",
+          "image": "https://picsum.photos/200/200?behcur1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Dal Makhani",
+          "price": 21900,
+          "veg": true,
+          "description": "Creamy black lentils",
+          "image": "https://picsum.photos/200/200?behcur2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Paneer Lababdar",
+          "price": 26900,
+          "veg": true,
+          "description": "Paneer in rich gravy",
+          "image": "https://picsum.photos/200/200?behcur3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Sides",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Raita",
+          "price": 7900,
+          "veg": true,
+          "description": "Yogurt with vegetables",
+          "image": "https://picsum.photos/200/200?raita1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Laccha Onion",
+          "price": 4900,
+          "veg": true,
+          "description": "Sliced onion rings",
+          "image": "https://picsum.photos/200/200?onion1",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Desserts",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Gulab Jamun - 2 Pcs",
+          "price": 7900,
+          "veg": true,
+          "description": "Sweet dumplings",
+          "image": "https://picsum.photos/200/200?behdes1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Phirni",
+          "price": 8900,
+          "veg": true,
+          "description": "Rice pudding",
+          "image": "https://picsum.photos/200/200?behdes2",
           "inStock": true
         }
       ]

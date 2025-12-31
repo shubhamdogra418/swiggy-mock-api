@@ -4,48 +4,204 @@
   "categories": [
     {
       "id": "c1",
-      "title": "Continental",
+      "title": "Recommended",
       "items": [
         {
-          "id": "i2901",
-          "name": "Lasagna",
+          "id": "i101",
+          "name": "Grilled Chicken Steak",
           "price": 34900,
           "veg": false,
-          "description": "Baked lasagna with meat",
-          "image": "https://picsum.photos/200/200?lasagna",
+          "description": "Juicy grilled chicken steak",
+          "image": "https://picsum.photos/200/200?cdhrec1",
           "inStock": true
         },
         {
-          "id": "i2902",
-          "name": "Quesadilla",
-          "price": 28900,
+          "id": "i102",
+          "name": "Paneer Tikka Pizza",
+          "price": 29900,
           "veg": true,
-          "description": "Mexican quesadilla",
-          "image": "https://picsum.photos/200/200?quesadilla",
+          "description": "Pizza with paneer tikka topping",
+          "image": "https://picsum.photos/200/200?cdhrec2",
           "inStock": true
         },
         {
-          "id": "i2903",
-          "name": "Fish & Chips",
-          "price": 39900,
+          "id": "i103",
+          "name": "Chicken Burger",
+          "price": 26900,
           "veg": false,
-          "description": "Battered fish with fries",
-          "image": "https://picsum.photos/200/200?fishnchips",
+          "description": "Gourmet chicken burger",
+          "image": "https://picsum.photos/200/200?cdhrec3",
           "inStock": true
         }
       ]
     },
     {
       "id": "c2",
+      "title": "Appetizers",
+      "items": [
+        {
+          "id": "i201",
+          "name": "Chicken Wings - 6 Pcs",
+          "price": 24900,
+          "veg": false,
+          "description": "Buffalo chicken wings",
+          "image": "https://picsum.photos/200/200?cdhapp1",
+          "inStock": true
+        },
+        {
+          "id": "i202",
+          "name": "Nachos Supreme",
+          "price": 21900,
+          "veg": true,
+          "description": "Loaded nachos with toppings",
+          "image": "https://picsum.photos/200/200?cdhapp2",
+          "inStock": true
+        },
+        {
+          "id": "i203",
+          "name": "Paneer Tikka",
+          "price": 22900,
+          "veg": true,
+          "description": "Grilled paneer cubes",
+          "image": "https://picsum.photos/200/200?cdhapp3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Main Course",
+      "items": [
+        {
+          "id": "i301",
+          "name": "Grilled Chicken Steak",
+          "price": 34900,
+          "veg": false,
+          "description": "With mashed potatoes & vegetables",
+          "image": "https://picsum.photos/200/200?cdhmain1",
+          "inStock": true
+        },
+        {
+          "id": "i302",
+          "name": "Dal Makhani",
+          "price": 24900,
+          "veg": true,
+          "description": "Creamy black lentils",
+          "image": "https://picsum.photos/200/200?cdhmain2",
+          "inStock": true
+        },
+        {
+          "id": "i303",
+          "name": "Butter Chicken",
+          "price": 32900,
+          "veg": false,
+          "description": "Classic butter chicken",
+          "image": "https://picsum.photos/200/200?cdhmain3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Burgers",
+      "items": [
+        {
+          "id": "i401",
+          "name": "Chicken Burger",
+          "price": 26900,
+          "veg": false,
+          "description": "Grilled chicken burger",
+          "image": "https://picsum.photos/200/200?cdhburg1",
+          "inStock": true
+        },
+        {
+          "id": "i402",
+          "name": "Veg Burger",
+          "price": 22900,
+          "veg": true,
+          "description": "Vegetable patty burger",
+          "image": "https://picsum.photos/200/200?cdhburg2",
+          "inStock": true
+        },
+        {
+          "id": "i403",
+          "name": "Paneer Burger",
+          "price": 24900,
+          "veg": true,
+          "description": "Paneer tikka burger",
+          "image": "https://picsum.photos/200/200?cdhburg3",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "title": "Pasta",
+      "items": [
+        {
+          "id": "i501",
+          "name": "Alfredo Pasta",
+          "price": 24900,
+          "veg": true,
+          "description": "Creamy white sauce pasta",
+          "image": "https://picsum.photos/200/200?cdhpasta1",
+          "inStock": true
+        },
+        {
+          "id": "i502",
+          "name": "Chicken Pasta",
+          "price": 27900,
+          "veg": false,
+          "description": "Pasta with grilled chicken",
+          "image": "https://picsum.photos/200/200?cdhpasta2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "title": "Beverages",
+      "items": [
+        {
+          "id": "i601",
+          "name": "Fresh Lime Soda",
+          "price": 9900,
+          "veg": true,
+          "description": "Refreshing lime soda",
+          "image": "https://picsum.photos/200/200?cdhdrink1",
+          "inStock": true
+        },
+        {
+          "id": "i602",
+          "name": "Iced Tea",
+          "price": 11900,
+          "veg": true,
+          "description": "Chilled iced tea",
+          "image": "https://picsum.photos/200/200?cdhdrink2",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "c7",
       "title": "Desserts",
       "items": [
         {
-          "id": "i2904",
-          "name": "Tiramisu",
-          "price": 24900,
+          "id": "i701",
+          "name": "Chocolate Brownie",
+          "price": 14900,
           "veg": true,
-          "description": "Italian coffee dessert",
-          "image": "https://picsum.photos/200/200?tiramisu",
+          "description": "Warm chocolate brownie with ice cream",
+          "image": "https://picsum.photos/200/200?cdhdes1",
+          "inStock": true
+        },
+        {
+          "id": "i702",
+          "name": "Cheesecake",
+          "price": 16900,
+          "veg": true,
+          "description": "New York style cheesecake",
+          "image": "https://picsum.photos/200/200?cdhdes2",
           "inStock": true
         }
       ]
